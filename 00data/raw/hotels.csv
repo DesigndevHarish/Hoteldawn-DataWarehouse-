@@ -1,0 +1,251 @@
+hotel_id,hotel_name,hotel_chain,city,state,country,star_rating,opened_date,status
+HOT0001,Skyline Hotels Mumbai Elite,Skyline,Mumbai,Maharashtra,India,3.0,2007-06-18,Closed
+HOT0002,Ocean Resorts Chennai Plaza,Ocean,Chennai,Tamil Nadu,India,5.0,2010-07-09,Closed
+HOT0003,Skyline Hotels Hyderabad Inn,Skyline,Hyderabad,Telangana,India,3.0,2024-06-19,Open
+HOT0004,Ocean Resorts Chennai Inn,Ocean,Chennai,Tamil Nadu,India,5.0,2017-07-17,Open
+HOT0005,HotelDawn Hyderabad Grand,HotelDawn,Hyderabad,Telangana,India,4.0,2024-08-29,Renovation
+HOT0006,Skyline Hotels Dubai Elite,Skyline,Dubai,Dubai,UAE,5.0,2009-12-26,Open
+HOT0007,Skyline Hotels Singapore Residency,Skyline,Singapore,Singapore,Singapore,3.0,2024-09-21,Closed
+HOT0008,HotelDawn Bengaluru Plaza,HotelDawn,Bengaluru,Karnataka,India,4.0,2021-06-26,Open
+HOT0009,Royal Stay Singapore Plaza,Royal,Singapore,Singapore,Singapore,5.0,2021-10-09,Closed
+HOT0010,Royal Stay Mumbai Inn,Royal,Mumbai,Maharashtra,India,3.0,2008-01-04,Renovation
+HOT0011,Skyline Hotels Bengaluru Residency,Skyline,Bengaluru,Karnataka,India,5.0,2014-06-18,Open
+HOT0012,HotelDawn New York Inn,HotelDawn,New York,New York,United States,5.0,2009-01-26,Closed
+HOT0013,Royal Stay Dubai Grand,Royal,Dubai,Dubai,UAE,,2008-04-14,Open
+HOT0014,Elite Suites Mumbai Grand,Elite,Mumbai,Maharashtra,India,3.0,2021-06-17,Renovation
+HOT0015,HotelDawn Singapore Residency,HotelDawn,Singapore,Singapore,Singapore,5.0,2010-05-07,Open
+HOT0016,Royal Stay Mumbai Elite,Royal,Mumbai,Maharashtra,India,5.0,2021-09-28,Closed
+HOT0017,Ocean Resorts New York Plaza,Ocean,New York,New York,United States,3.0,2019-05-20,Open
+HOT0018,Skyline Hotels Bengaluru Grand,Skyline,Bengaluru,Karnataka,India,3.0,2018-07-03,Open
+HOT0019,Skyline Hotels London Residency,Skyline,London,England,United Kingdom,4.0,2020-01-19,Renovation
+HOT0020,Royal Stay New York Elite,Royal,New York,New York,United States,5.0,2020-01-12,Closed
+HOT0021,Ocean Resorts Bengaluru Plaza,Ocean,Bengaluru,Karnataka,India,5.0,2008-09-27,Closed
+HOT0022,Ocean Resorts Sydney Inn,Ocean,Sydney,New South Wales,Australia,4.0,2011-02-08,Open
+HOT0023,Ocean Resorts Chennai Inn,Ocean,Chennai,Tamil Nadu,India,5.0,2021-11-24,Renovation
+HOT0024,Ocean Resorts New York Inn,Ocean,New York,New York,United States,5.0,2023-04-24,Open
+HOT0025,Ocean Resorts Mumbai Residency,Ocean,Mumbai,Maharashtra,India,4.0,2007-02-04,Closed
+HOT0026,Royal Stay New York Elite,Royal,New York,New York,United States,5.0,2018-04-30,Open
+HOT0027,HotelDawn Delhi Residency,HotelDawn,Delhi,Delhi,India,5.0,2016-03-22,Renovation
+HOT0028,Ocean Resorts Sydney Elite,Ocean,Sydney,New South Wales,Australia,5.0,2010-07-20,Renovation
+HOT0029,HotelDawn Dubai Residency,HotelDawn,Dubai,Dubai,UAE,5.0,2009-03-28,Renovation
+HOT0030,Ocean Resorts Singapore Plaza,Ocean,Singapore,Singapore,Singapore,4.0,2008-06-09,Closed
+HOT0031,Royal Stay Delhi Residency,Royal,Delhi,Delhi,India,5.0,2020-01-05,Renovation
+HOT0032,HotelDawn Hyderabad Inn,HotelDawn,Hyderabad,Telangana,India,5.0,2020-06-05,Closed
+HOT0033,Royal Stay Mumbai Inn,Royal,Mumbai,Maharashtra,India,4.0,2025-06-29,Renovation
+HOT0034,HotelDawn Mumbai Grand,HotelDawn,Mumbai,Maharashtra,India,4.0,2014-05-28,Renovation
+HOT0035,Elite Suites Dubai Residency,Elite,Dubai,Dubai,UAE,5.0,2023-04-09,Closed
+HOT0036,Elite Suites Chennai Plaza,Elite,Chennai,Tamil Nadu,India,4.0,2013-06-06,Closed
+HOT0037,Ocean Resorts Mumbai Elite,Ocean,Mumbai,Maharashtra,India,4.0,2007-03-01,Closed
+HOT0038,Elite Suites Chennai Grand,Elite,Chennai,Tamil Nadu,India,5.0,2007-01-16,Closed
+HOT0039,Elite Suites Mumbai Grand,Elite,Mumbai,Maharashtra,India,4.0,2008-11-22,Open
+HOT0040,Skyline Hotels London Inn,Skyline,London,England,United Kingdom,4.0,2009-11-01,Renovation
+HOT0041,Royal Stay Delhi Inn,Royal,Delhi,Delhi,India,5.0,2010-12-17,Closed
+HOT0042,Elite Suites Sydney Elite,Elite,Sydney,New South Wales,Australia,4.0,2009-10-14,Renovation
+HOT0043,Elite Suites Sydney Grand,Elite,Sydney,New South Wales,Australia,5.0,2017-02-26,Open
+HOT0044,Elite Suites London Residency,Elite,London,England,United Kingdom,3.0,2022-01-29,Renovation
+HOT0045,Royal Stay Hyderabad Elite,Royal,Hyderabad,Telangana,India,,2024-09-18,Renovation
+HOT0046,Ocean Resorts Chennai Grand,Ocean,Chennai,Tamil Nadu,India,3.0,2008-06-28,Open
+HOT0047,Royal Stay Bengaluru Elite,Royal,Bengaluru,Karnataka,India,5.0,2022-09-23,Renovation
+HOT0048,HotelDawn Mumbai Residency,HotelDawn,Mumbai,Maharashtra,India,4.0,2021-04-04,Open
+HOT0049,Royal Stay Sydney Plaza,Royal,Sydney,New South Wales,Australia,4.0,2022-04-16,Open
+HOT0050,Royal Stay London Grand,Royal,London,England,United Kingdom,3.0,2017-03-26,Closed
+HOT0051,HotelDawn London Inn,HotelDawn,London,England,United Kingdom,3.0,2019-12-31,Open
+HOT0052,HotelDawn Chennai Elite,HotelDawn,Chennai,Tamil Nadu,India,3.0,2017-10-13,Renovation
+HOT0053,Ocean Resorts Delhi Elite,Ocean,Delhi,Delhi,India,4.0,2006-12-23,Open
+HOT0054,HotelDawn Singapore Grand,HotelDawn,Singapore,Singapore,Singapore,4.0,2013-06-27,Renovation
+HOT0055,HotelDawn Dubai Elite,HotelDawn,Dubai,Dubai,UAE,4.0,2022-12-29,Closed
+HOT0056,Elite Suites London Elite,Elite,London,England,United Kingdom,3.0,2017-07-12,Closed
+HOT0057,Royal Stay Hyderabad Elite,Royal,Hyderabad,Telangana,India,5.0,2021-06-12,Renovation
+HOT0058,Ocean Resorts London Plaza,Ocean,London,England,United Kingdom,5.0,2020-11-08,Renovation
+HOT0059,Skyline Hotels Hyderabad Plaza,Skyline,Hyderabad,Telangana,India,4.0,2020-05-20,Closed
+HOT0060,Royal Stay Singapore Grand,Royal,Singapore,Singapore,Singapore,3.0,2023-05-21,Open
+HOT0061,Skyline Hotels Chennai Residency,Skyline,Chennai,Tamil Nadu,India,4.0,2020-02-28,Renovation
+HOT0062,Ocean Resorts Chennai Inn,Ocean,Chennai,Tamil Nadu,India,5.0,2015-07-06,Renovation
+HOT0063,Royal Stay Mumbai Elite,Royal,Mumbai,Maharashtra,India,4.0,2008-11-08,Open
+HOT0064,Royal Stay Delhi Inn,Royal,Delhi,Delhi,India,5.0,2021-03-07,Closed
+HOT0065,Elite Suites Bengaluru Plaza,Elite,Bengaluru,Karnataka,India,3.0,2014-01-02,Renovation
+HOT0066,Royal Stay Sydney Residency,Royal,Sydney,New South Wales,Australia,5.0,2009-06-09,Renovation
+HOT0067,Royal Stay Dubai Elite,Royal,Dubai,Dubai,UAE,5.0,2019-06-09,Renovation
+HOT0068,HotelDawn Chennai Elite,HotelDawn,Chennai,Tamil Nadu,India,3.0,2009-10-20,Open
+HOT0069,Skyline Hotels Hyderabad Residency,Skyline,Hyderabad,Telangana,India,4.0,2015-05-28,Renovation
+HOT0070,Royal Stay Sydney Elite,Royal,Sydney,New South Wales,Australia,5.0,2020-10-31,Closed
+HOT0071,Elite Suites New York Elite,Elite,New York,New York,United States,3.0,2021-01-23,Open
+HOT0072,Ocean Resorts New York Grand,Ocean,New York,New York,United States,4.0,2021-08-10,Closed
+HOT0073,Ocean Resorts Dubai Plaza,Ocean,Dubai,Dubai,UAE,5.0,2015-06-23,Open
+HOT0074,Ocean Resorts Sydney Plaza,Ocean,Sydney,New South Wales,Australia,3.0,2008-03-22,Closed
+HOT0075,Royal Stay Chennai Grand,Royal,Chennai,Tamil Nadu,India,4.0,2007-07-04,Closed
+HOT0076,HotelDawn New York Residency,HotelDawn,New York,New York,United States,5.0,2014-07-04,Renovation
+HOT0077,Skyline Hotels New York Inn,Skyline,New York,New York,United States,5.0,2010-01-30,Closed
+HOT0078,HotelDawn Singapore Elite,HotelDawn,Singapore,Singapore,Singapore,3.0,2009-03-19,Renovation
+HOT0079,Skyline Hotels Bengaluru Residency,Skyline,Bengaluru,Karnataka,India,5.0,2007-11-07,Renovation
+HOT0080,HotelDawn Mumbai Plaza,HotelDawn,Mumbai,Maharashtra,India,4.0,2006-11-25,Open
+HOT0081,Ocean Resorts New York Residency,Ocean,New York,New York,United States,3.0,2012-08-05,Open
+HOT0082,Ocean Resorts Delhi Residency,Ocean,Delhi,Delhi,India,3.0,2020-02-23,Closed
+HOT0083,Ocean Resorts Dubai Inn,Ocean,Dubai,Dubai,UAE,4.0,2014-12-27,Renovation
+HOT0084,Elite Suites Delhi Grand,Elite,Delhi,Delhi,India,4.0,2006-10-23,Renovation
+HOT0085,Elite Suites Singapore Elite,Elite,Singapore,Singapore,Singapore,3.0,2009-03-09,Renovation
+HOT0086,HotelDawn Dubai Inn,HotelDawn,Dubai,Dubai,UAE,5.0,2007-08-04,Renovation
+HOT0087,Elite Suites Singapore Plaza,Elite,Singapore,Singapore,Singapore,3.0,2019-02-15,Open
+HOT0088,Skyline Hotels Chennai Plaza,Skyline,Chennai,Tamil Nadu,India,5.0,2021-10-30,Open
+HOT0089,Skyline Hotels New York Plaza,Skyline,New York,New York,United States,5.0,2012-10-08,Renovation
+HOT0090,Skyline Hotels Mumbai Inn,Skyline,Mumbai,Maharashtra,India,3.0,2006-08-14,Closed
+HOT0091,Elite Suites New York Inn,Elite,New York,New York,United States,4.0,2008-01-08,Closed
+HOT0092,HotelDawn Delhi Grand,HotelDawn,Delhi,Delhi,India,3.0,2022-04-05,Open
+HOT0093,Ocean Resorts London Inn,Ocean,London,England,United Kingdom,4.0,2024-04-10,Renovation
+HOT0094,HotelDawn New York Residency,HotelDawn,New York,New York,United States,4.0,2011-03-12,Renovation
+HOT0095,HotelDawn Sydney Residency,HotelDawn,Sydney,New South Wales,Australia,4.0,2008-11-29,Renovation
+HOT0096,Elite Suites Bengaluru Elite,Elite,Bengaluru,Karnataka,India,3.0,2020-08-01,Closed
+HOT0097,Ocean Resorts Bengaluru Residency,Ocean,Bengaluru,Karnataka,India,3.0,2009-10-07,Renovation
+HOT0098,Royal Stay Sydney Residency,Royal,Sydney,New South Wales,Australia,4.0,2023-12-20,Closed
+HOT0099,Skyline Hotels Sydney Grand,Skyline,Sydney,New South Wales,Australia,5.0,2011-08-03,Renovation
+HOT0100,Skyline Hotels New York Inn,Skyline,New York,New York,United States,5.0,2023-04-30,Open
+HOT0101,Elite Suites Chennai Residency,Elite,Chennai,Tamil Nadu,India,3.0,2013-02-24,Renovation
+HOT0102,Ocean Resorts Hyderabad Residency,Ocean,Hyderabad,Telangana,India,4.0,2014-04-02,Closed
+HOT0103,Royal Stay London Residency,Royal,London,England,United Kingdom,5.0,2023-12-28,Open
+HOT0104,Ocean Resorts Bengaluru Plaza,Ocean,Bengaluru,Karnataka,India,5.0,2011-05-18,Renovation
+HOT0105,Elite Suites Dubai Grand,Elite,Dubai,Dubai,UAE,5.0,2022-08-02,Open
+HOT0106,HotelDawn Singapore Grand,HotelDawn,Singapore,Singapore,Singapore,3.0,2021-01-23,Renovation
+HOT0107,HotelDawn Hyderabad Residency,HotelDawn,Hyderabad,Telangana,India,4.0,2006-08-09,Closed
+HOT0108,Royal Stay London Plaza,Royal,London,England,United Kingdom,3.0,2014-01-22,Closed
+HOT0109,Ocean Resorts Delhi Inn,Ocean,Delhi,Delhi,India,3.0,2022-07-12,Renovation
+HOT0110,Royal Stay Sydney Residency,Royal,Sydney,New South Wales,Australia,4.0,2016-10-06,Closed
+HOT0111,Skyline Hotels Mumbai Inn,Skyline,Mumbai,Maharashtra,India,5.0,2008-07-05,Closed
+HOT0112,Elite Suites London Inn,Elite,London,England,United Kingdom,5.0,2013-10-23,Open
+HOT0113,Royal Stay Dubai Elite,Royal,Dubai,Dubai,UAE,4.0,2014-08-03,Open
+HOT0114,Elite Suites Hyderabad Elite,Elite,Hyderabad,Telangana,India,4.0,2024-03-13,Open
+HOT0115,Elite Suites Delhi Elite,Elite,Delhi,Delhi,India,3.0,2020-01-27,Open
+HOT0116,Elite Suites Sydney Residency,Elite,Sydney,New South Wales,Australia,5.0,2012-09-06,Open
+HOT0117,Skyline Hotels Sydney Plaza,Skyline,Sydney,New South Wales,Australia,4.0,2020-01-31,Open
+HOT0118,Royal Stay Singapore Grand,Royal,Singapore,Singapore,Singapore,4.0,2020-09-16,Open
+HOT0119,Skyline Hotels Singapore Inn,Skyline,Singapore,Singapore,Singapore,5.0,2011-02-22,Closed
+HOT0120,HotelDawn Mumbai Grand,HotelDawn,Mumbai,Maharashtra,India,5.0,2021-07-26,Open
+HOT0121,Elite Suites London Elite,Elite,London,England,United Kingdom,4.0,2016-12-04,Open
+HOT0122,Elite Suites Hyderabad Plaza,Elite,Hyderabad,Telangana,India,4.0,2014-04-02,Renovation
+HOT0123,Skyline Hotels Bengaluru Grand,Skyline,Bengaluru,Karnataka,India,3.0,2018-08-31,Open
+HOT0124,HotelDawn Dubai Plaza,HotelDawn,Dubai,Dubai,UAE,3.0,2016-11-14,Open
+HOT0125,Skyline Hotels Hyderabad Elite,Skyline,Hyderabad,Telangana,India,3.0,2008-07-13,Renovation
+HOT0126,Ocean Resorts Hyderabad Residency,Ocean,Hyderabad,Telangana,India,5.0,2016-02-03,Renovation
+HOT0127,Royal Stay Dubai Grand,Royal,Dubai,Dubai,UAE,5.0,2008-07-30,Renovation
+HOT0128,Skyline Hotels Singapore Grand,Skyline,Singapore,Singapore,Singapore,4.0,2025-07-18,Renovation
+HOT0129,Elite Suites New York Residency,Elite,New York,New York,United States,5.0,2020-11-09,Open
+HOT0130,Skyline Hotels Bengaluru Grand,Skyline,Bengaluru,Karnataka,India,3.0,2016-08-30,Closed
+HOT0131,Royal Stay Hyderabad Elite,Royal,Hyderabad,Telangana,India,5.0,2021-03-14,Closed
+HOT0132,Elite Suites Singapore Inn,Elite,Singapore,Singapore,Singapore,4.0,2016-01-23,Renovation
+HOT0133,Royal Stay New York Inn,Royal,New York,New York,United States,5.0,2007-12-16,Open
+HOT0134,Ocean Resorts Delhi Inn,Ocean,Delhi,Delhi,India,4.0,2006-09-30,Open
+HOT0135,Ocean Resorts Singapore Residency,Ocean,Singapore,Singapore,Singapore,4.0,2022-02-09,Open
+HOT0136,Ocean Resorts Singapore Residency,Ocean,Singapore,Singapore,Singapore,5.0,2011-01-06,Open
+HOT0137,Royal Stay Singapore Plaza,Royal,Singapore,Singapore,Singapore,3.0,2009-04-01,Renovation
+HOT0138,Royal Stay London Residency,Royal,London,England,United Kingdom,3.0,2024-02-14,Renovation
+HOT0139,HotelDawn Singapore Plaza,HotelDawn,Singapore,Singapore,Singapore,3.0,2013-02-14,Renovation
+HOT0140,Royal Stay New York Grand,Royal,New York,New York,United States,5.0,2015-07-19,Open
+HOT0141,Royal Stay Hyderabad Elite,Royal,Hyderabad,Telangana,India,5.0,2007-01-20,Closed
+HOT0142,Ocean Resorts Chennai Grand,Ocean,Chennai,Tamil Nadu,India,3.0,2021-08-15,Open
+HOT0143,Skyline Hotels Delhi Residency,Skyline,Delhi,Delhi,India,5.0,2018-01-03,Renovation
+HOT0144,Ocean Resorts New York Grand,Ocean,New York,New York,United States,3.0,2022-02-04,Renovation
+HOT0145,Skyline Hotels Delhi Elite,Skyline,Delhi,Delhi,India,3.0,2016-08-30,Renovation
+HOT0146,Ocean Resorts Hyderabad Grand,Ocean,Hyderabad,Telangana,India,4.0,2022-06-21,Closed
+HOT0147,Ocean Resorts Sydney Residency,Ocean,Sydney,New South Wales,Australia,5.0,2014-04-08,Renovation
+HOT0148,Skyline Hotels London Elite,Skyline,London,England,United Kingdom,4.0,2019-04-27,Closed
+HOT0149,HotelDawn Hyderabad Elite,HotelDawn,Hyderabad,Telangana,India,4.0,2014-12-09,Closed
+HOT0150,Skyline Hotels Dubai Inn,Skyline,Dubai,Dubai,UAE,3.0,2024-05-12,Open
+HOT0151,Elite Suites Delhi Residency,Elite,Delhi,Delhi,India,3.0,2024-01-16,Open
+HOT0152,Royal Stay New York Grand,Royal,New York,New York,United States,4.0,2015-12-23,Closed
+HOT0153,Royal Stay Dubai Plaza,Royal,Dubai,Dubai,UAE,4.0,2017-12-03,Closed
+HOT0154,Royal Stay New York Plaza,Royal,New York,New York,United States,4.0,2011-05-09,Closed
+HOT0155,Skyline Hotels Hyderabad Grand,Skyline,Hyderabad,Telangana,India,3.0,2008-08-21,Open
+HOT0156,HotelDawn Hyderabad Inn,HotelDawn,Hyderabad,Telangana,India,3.0,2022-04-18,Closed
+HOT0157,Skyline Hotels Sydney Inn,Skyline,Sydney,New South Wales,Australia,3.0,2007-01-07,Closed
+HOT0158,Skyline Hotels Delhi Grand,Skyline,Delhi,Delhi,India,3.0,2022-08-09,Open
+HOT0159,Elite Suites Delhi Elite,Elite,Delhi,Delhi,India,4.0,2021-07-26,Closed
+HOT0160,Royal Stay Chennai Elite,Royal,Chennai,Tamil Nadu,India,5.0,2014-12-11,Open
+HOT0161,HotelDawn New York Grand,HotelDawn,New York,New York,United States,4.0,2010-06-11,Renovation
+HOT0162,HotelDawn Dubai Residency,HotelDawn,Dubai,Dubai,UAE,3.0,2017-07-18,Closed
+HOT0163,HotelDawn Bengaluru Grand,HotelDawn,Bengaluru,Karnataka,India,3.0,2020-11-25,Open
+HOT0164,Royal Stay Bengaluru Elite,Royal,Bengaluru,Karnataka,India,5.0,2008-04-04,Open
+HOT0165,Elite Suites Mumbai Residency,Elite,Mumbai,Maharashtra,India,4.0,2012-03-24,Renovation
+HOT0166,Royal Stay Hyderabad Inn,Royal,Hyderabad,Telangana,India,4.0,2011-08-26,Open
+HOT0167,Royal Stay Sydney Plaza,Royal,Sydney,New South Wales,Australia,5.0,2012-03-22,Renovation
+HOT0168,Ocean Resorts Delhi Grand,Ocean,Delhi,Delhi,India,5.0,2019-04-27,Renovation
+HOT0169,Ocean Resorts Dubai Elite,Ocean,Dubai,Dubai,UAE,5.0,2010-08-21,Closed
+HOT0170,Ocean Resorts Dubai Elite,Ocean,Dubai,Dubai,UAE,5.0,2021-09-24,Open
+HOT0171,Royal Stay Hyderabad Elite,Royal,Hyderabad,Telangana,India,4.0,2021-11-12,Renovation
+HOT0172,Skyline Hotels Sydney Residency,Skyline,Sydney,New South Wales,Australia,5.0,2012-02-21,Open
+HOT0173,Royal Stay Singapore Plaza,Royal,Singapore,Singapore,Singapore,3.0,2018-07-17,Renovation
+HOT0174,Ocean Resorts New York Plaza,Ocean,New York,New York,United States,3.0,2006-10-29,Closed
+HOT0175,Elite Suites Dubai Grand,Elite,Dubai,Dubai,UAE,,2024-10-09,Closed
+HOT0176,Elite Suites Sydney Inn,Elite,Sydney,New South Wales,Australia,5.0,2015-10-10,Closed
+HOT0177,HotelDawn Mumbai Plaza,HotelDawn,Mumbai,Maharashtra,India,5.0,2025-01-12,Open
+HOT0178,Skyline Hotels Sydney Residency,Skyline,Sydney,New South Wales,Australia,3.0,2013-04-01,Closed
+HOT0179,Royal Stay London Residency,Royal,London,England,United Kingdom,4.0,2009-06-29,Renovation
+HOT0180,Ocean Resorts Bengaluru Elite,Ocean,Bengaluru,Karnataka,India,4.0,2016-06-03,Closed
+HOT0181,Royal Stay Delhi Inn,Royal,Delhi,Delhi,India,4.0,2020-12-31,Open
+HOT0182,Skyline Hotels Dubai Residency,Skyline,Dubai,Dubai,UAE,5.0,2023-05-09,Closed
+HOT0183,HotelDawn Delhi Grand,HotelDawn,Delhi,Delhi,India,5.0,2009-11-23,Open
+HOT0184,Ocean Resorts Sydney Residency,Ocean,Sydney,New South Wales,Australia,3.0,2009-01-21,Open
+HOT0185,Skyline Hotels Bengaluru Grand,Skyline,Bengaluru,Karnataka,India,3.0,2007-07-30,Open
+HOT0186,Royal Stay Mumbai Residency,Royal,Mumbai,Maharashtra,India,3.0,2007-05-26,Renovation
+HOT0187,Ocean Resorts Sydney Inn,Ocean,Sydney,New South Wales,Australia,,2023-03-02,Renovation
+HOT0188,Skyline Hotels Sydney Inn,Skyline,Sydney,New South Wales,Australia,4.0,2014-07-22,Closed
+HOT0189,Royal Stay Chennai Elite,Royal,Chennai,Tamil Nadu,India,5.0,2018-08-17,Closed
+HOT0190,Skyline Hotels Chennai Inn,Skyline,Chennai,Tamil Nadu,India,5.0,2012-02-03,Closed
+HOT0191,Ocean Resorts Bengaluru Grand,Ocean,Bengaluru,Karnataka,India,4.0,2019-04-20,Renovation
+HOT0192,HotelDawn Sydney Grand,HotelDawn,Sydney,New South Wales,Australia,3.0,2025-01-21,Renovation
+HOT0193,Skyline Hotels Delhi Plaza,Skyline,Delhi,Delhi,India,3.0,2018-11-13,Open
+HOT0194,Skyline Hotels New York Residency,Skyline,New York,New York,United States,4.0,2014-01-27,Renovation
+HOT0195,Skyline Hotels New York Elite,Skyline,New York,New York,United States,5.0,2009-03-05,Renovation
+HOT0196,Ocean Resorts New York Elite,Ocean,New York,New York,United States,5.0,2013-03-17,Closed
+HOT0197,Skyline Hotels Dubai Grand,Skyline,Dubai,Dubai,UAE,3.0,2008-09-03,Open
+HOT0198,Elite Suites Bengaluru Elite,Elite,Bengaluru,Karnataka,India,5.0,2014-10-27,Open
+HOT0199,Elite Suites Sydney Residency,Elite,Sydney,New South Wales,Australia,5.0,2009-06-25,Closed
+HOT0200,HotelDawn Hyderabad Plaza,HotelDawn,Hyderabad,Telangana,India,4.0,2015-08-25,Open
+HOT0201,Ocean Resorts Sydney Grand,Ocean,Sydney,New South Wales,Australia,3.0,2021-04-17,Open
+HOT0202,Royal Stay Sydney Plaza,Royal,Sydney,New South Wales,Australia,3.0,2007-06-30,Renovation
+HOT0203,Ocean Resorts New York Residency,Ocean,New York,New York,United States,4.0,2012-07-01,Renovation
+HOT0204,Royal Stay Chennai Residency,Royal,Chennai,Tamil Nadu,India,5.0,2010-10-16,Open
+HOT0205,Skyline Hotels Dubai Elite,Skyline,Dubai,Dubai,UAE,4.0,2017-03-06,Closed
+HOT0206,Royal Stay London Grand,Royal,London,England,United Kingdom,5.0,2024-03-01,Closed
+HOT0207,Elite Suites Dubai Plaza,Elite,Dubai,Dubai,UAE,3.0,2006-10-26,Open
+HOT0208,HotelDawn Delhi Plaza,HotelDawn,Delhi,Delhi,India,4.0,2015-04-01,Open
+HOT0209,Royal Stay Hyderabad Plaza,Royal,Hyderabad,Telangana,India,5.0,2021-06-27,Open
+HOT0210,Royal Stay Dubai Plaza,Royal,Dubai,Dubai,UAE,4.0,2010-12-22,Open
+HOT0211,Elite Suites Delhi Elite,Elite,Delhi,Delhi,India,4.0,2015-02-17,Closed
+HOT0212,Ocean Resorts London Grand,Ocean,London,England,United Kingdom,3.0,2015-11-09,Closed
+HOT0213,Skyline Hotels Bengaluru Grand,Skyline,Bengaluru,Karnataka,India,3.0,2010-10-10,Renovation
+HOT0214,Skyline Hotels Singapore Elite,Skyline,Singapore,Singapore,Singapore,4.0,2020-03-30,Renovation
+HOT0215,Royal Stay New York Plaza,Royal,New York,New York,United States,4.0,2021-07-16,Closed
+HOT0216,HotelDawn Chennai Grand,HotelDawn,Chennai,Tamil Nadu,India,4.0,2024-02-08,Renovation
+HOT0217,Skyline Hotels Sydney Residency,Skyline,Sydney,New South Wales,Australia,3.0,2009-06-16,Renovation
+HOT0218,Royal Stay Hyderabad Residency,Royal,Hyderabad,Telangana,India,3.0,2018-01-13,Closed
+HOT0219,Elite Suites Singapore Residency,Elite,Singapore,Singapore,Singapore,4.0,2012-12-20,Renovation
+HOT0220,Skyline Hotels Sydney Plaza,Skyline,Sydney,New South Wales,Australia,5.0,2015-10-19,Renovation
+HOT0221,HotelDawn Mumbai Grand,HotelDawn,Mumbai,Maharashtra,India,3.0,2009-12-24,Closed
+HOT0222,Skyline Hotels New York Elite,Skyline,New York,New York,United States,5.0,2020-10-23,Closed
+HOT0223,HotelDawn Dubai Residency,HotelDawn,Dubai,Dubai,UAE,3.0,2012-05-25,Closed
+HOT0224,Skyline Hotels Sydney Elite,Skyline,Sydney,New South Wales,Australia,5.0,2022-04-22,Open
+HOT0225,Ocean Resorts Hyderabad Plaza,Ocean,Hyderabad,Telangana,India,4.0,2021-01-24,Open
+HOT0226,Skyline Hotels Dubai Elite,Skyline,Dubai,Dubai,UAE,4.0,2022-06-29,Renovation
+HOT0227,Royal Stay Chennai Inn,Royal,Chennai,Tamil Nadu,India,5.0,2013-06-20,Closed
+HOT0228,Royal Stay London Elite,Royal,London,England,United Kingdom,5.0,2006-10-18,Closed
+HOT0229,Ocean Resorts Sydney Plaza,Ocean,Sydney,New South Wales,Australia,3.0,2024-03-31,Open
+HOT0230,HotelDawn Sydney Elite,HotelDawn,Sydney,New South Wales,Australia,4.0,2008-12-16,Open
+HOT0231,HotelDawn Delhi Inn,HotelDawn,Delhi,Delhi,India,5.0,2011-08-28,Open
+HOT0232,Skyline Hotels New York Elite,Skyline,New York,New York,United States,3.0,2016-06-27,Open
+HOT0233,Elite Suites Hyderabad Plaza,Elite,Hyderabad,Telangana,India,4.0,2007-04-23,Renovation
+HOT0234,HotelDawn Dubai Grand,HotelDawn,Dubai,Dubai,UAE,3.0,2011-10-12,Open
+HOT0235,Skyline Hotels Dubai Grand,Skyline,Dubai,Dubai,UAE,5.0,2017-07-07,Closed
+HOT0236,Royal Stay Delhi Inn,Royal,Delhi,Delhi,India,3.0,2021-07-23,Closed
+HOT0237,Elite Suites Dubai Plaza,Elite,Dubai,Dubai,UAE,3.0,2014-02-25,Open
+HOT0238,Ocean Resorts Mumbai Residency,Ocean,Mumbai,Maharashtra,India,5.0,2019-04-19,Open
+HOT0239,Skyline Hotels London Residency,Skyline,London,England,United Kingdom,5.0,2017-06-13,Renovation
+HOT0240,Royal Stay Dubai Plaza,Royal,Dubai,Dubai,UAE,4.0,2017-12-21,Open
+HOT0241,Elite Suites Singapore Inn,Elite,Singapore,Singapore,Singapore,5.0,2015-01-09,Renovation
+HOT0242,Elite Suites Hyderabad Grand,Elite,Hyderabad,Telangana,India,4.0,2017-03-13,Open
+HOT0243,Royal Stay Singapore Plaza,Royal,Singapore,Singapore,Singapore,5.0,2023-03-03,Renovation
+HOT0244,HotelDawn Dubai Grand,HotelDawn,Dubai,Dubai,UAE,5.0,2017-08-12,Open
+HOT0245,Skyline Hotels Sydney Plaza,Skyline,Sydney,New South Wales,Australia,3.0,2015-06-19,Open
+HOT0246,Royal Stay New York Elite,Royal,New York,New York,United States,5.0,2014-02-03,Closed
+HOT0247,Royal Stay Hyderabad Grand,Royal,Hyderabad,Telangana,India,4.0,2012-11-09,Open
+HOT0248,Elite Suites Chennai Elite,Elite,Chennai,Tamil Nadu,India,4.0,2012-05-02,Renovation
+HOT0249,Ocean Resorts Delhi Elite,Ocean,Delhi,Delhi,India,3.0,2016-10-25,Open
+HOT0250,Elite Suites Delhi Inn,Elite,Delhi,Delhi,India,4.0,2011-03-29,Renovation

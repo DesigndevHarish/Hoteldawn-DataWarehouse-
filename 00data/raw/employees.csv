@@ -1,0 +1,801 @@
+employee_id,hotel_id,first_name,last_name,department,designation,salary,hire_date,status
+EMP00001,HOT0002,James,Brooks,Housekeeping,Associate,38383.0,2019-12-16,Active
+EMP00002,HOT0205,Brent,Nguyen,Front Office,Executive,104890.0,2019-02-26,On Leave
+EMP00003,HOT0183,Miranda,Barber,Security,Manager,57674.0,2023-05-22,Resigned
+EMP00004,HOT0149,Kyle,Skinner,Housekeeping,Manager,47561.0,2018-01-06,Resigned
+EMP00005,HOT0053,Courtney,Wilkins,Finance,Executive,89669.0,2025-06-14,On Leave
+EMP00006,HOT0036,Dean,Holloway,Housekeeping,Associate,146641.0,2018-10-17,Active
+EMP00007,HOT0007,Kendra,Lewis,Food & Beverage,Manager,136862.0,2018-08-30,Resigned
+EMP00008,HOT0036,Evan,Reid,Front Office,Supervisor,132265.0,2020-05-25,Active
+EMP00009,HOT0173,Olivia,James,Food & Beverage,Manager,40656.0,2021-05-17,On Leave
+EMP00010,HOT0209,Mark,Martin,Food & Beverage,Associate,73844.0,2017-07-24,Resigned
+EMP00011,HOT0176,Alexander,Moore,Security,Associate,88472.0,2020-06-11,Active
+EMP00012,HOT0068,Patrick,Decker,Maintenance,Associate,66780.0,2024-08-23,Resigned
+EMP00013,HOT0149,Joseph,Price,Front Office,Technician,86200.0,2017-07-10,On Leave
+EMP00014,HOT0070,Caroline,Figueroa,Housekeeping,Associate,132927.0,2022-03-16,Resigned
+EMP00015,HOT0113,Chelsea,Hill,IT,Associate,,2022-10-25,Resigned
+EMP00016,HOT0106,Melissa,Suarez,Finance,Supervisor,75198.0,2024-06-10,Active
+EMP00017,HOT0072,Cynthia,Smith,Finance,Executive,103965.0,2026-01-28,On Leave
+EMP00018,HOT0205,Rebecca,Walker,HR,Associate,148035.0,2021-01-03,Active
+EMP00019,HOT0040,Lisa,Manning,Security,Technician,105129.0,2023-04-06,On Leave
+EMP00020,HOT0219,Matthew,Taylor,Food & Beverage,Supervisor,135662.0,2023-12-08,Resigned
+EMP00021,HOT0043,Melissa,Bishop,Maintenance,Executive,107604.0,2020-02-21,Resigned
+EMP00022,HOT0250,Thomas,Jennings,Maintenance,Executive,79761.0,2023-09-05,Resigned
+EMP00023,HOT0079,Bruce,Lewis,IT,Supervisor,137723.0,2025-08-12,Resigned
+EMP00024,HOT0008,Jason,Harris,IT,Associate,97253.0,2019-09-04,Resigned
+EMP00025,HOT0088,Katie,Griffith,Security,Executive,108671.0,2022-09-08,On Leave
+EMP00026,HOT0161,Charles,Smith,Security,Executive,50380.0,2022-10-12,Resigned
+EMP00027,HOT0096,John,Thomas,Housekeeping,Associate,122195.0,2019-03-05,Resigned
+EMP00028,HOT0108,Becky,Gomez,IT,Manager,134703.0,2017-07-06,Resigned
+EMP00029,HOT0233,Chase,Nash,Maintenance,Technician,136976.0,2025-06-30,Active
+EMP00030,HOT0036,Jamie,Lee,Housekeeping,Technician,30718.0,2017-10-17,Resigned
+EMP00031,HOT0151,Christopher,Crawford,Front Office,Technician,142564.0,2021-09-13,On Leave
+EMP00032,HOT0150,Robin,Sanchez,Housekeeping,Supervisor,136609.0,2023-12-29,Resigned
+EMP00033,HOT0032,Juan,Hendricks,Front Office,Executive,87196.0,2025-04-02,Resigned
+EMP00034,HOT0130,Jennifer,Davis,Maintenance,Manager,64180.0,2026-05-28,Resigned
+EMP00035,HOT0225,Jennifer,Thomas,IT,Executive,60339.0,2024-06-01,Active
+EMP00036,HOT0074,Joshua,Thompson,Housekeeping,Executive,100640.0,2024-03-10,On Leave
+EMP00037,HOT0102,Christopher,Hawkins,Finance,Executive,92396.0,2022-09-30,Resigned
+EMP00038,HOT0148,Angela,Baker,Security,Technician,140818.0,2025-05-03,Active
+EMP00039,HOT0099,Craig,Watson,IT,Manager,148332.0,2022-09-28,Resigned
+EMP00040,HOT0105,Cheryl,Schmidt,Front Office,Manager,63484.0,2017-04-27,On Leave
+EMP00041,HOT0095,Lauren,Irwin,HR,Manager,137413.0,2020-01-08,Active
+EMP00042,HOT0247,Kyle,Ford,Food & Beverage,Technician,107604.0,2024-07-11,On Leave
+EMP00043,HOT0085,Gabriel,Boyd,IT,Manager,43465.0,2020-11-28,Active
+EMP00044,HOT0240,Kathy,Tucker,IT,Supervisor,28395.0,2026-01-29,Active
+EMP00045,HOT0054,Alexa,Kim,HR,Executive,36351.0,2018-10-24,Resigned
+EMP00046,HOT0030,Nathan,Blake,Food & Beverage,Supervisor,41703.0,2018-10-29,On Leave
+EMP00047,HOT0190,Briana,Freeman,IT,Supervisor,128864.0,2024-07-19,On Leave
+EMP00048,HOT0073,Carol,Richardson,Food & Beverage,Supervisor,66760.0,2017-04-22,On Leave
+EMP00049,HOT0198,William,Aguilar,Housekeeping,Technician,139036.0,2025-11-09,Active
+EMP00050,HOT0187,Michelle,Long,HR,Manager,133010.0,2021-07-14,Active
+EMP00051,HOT0174,Scott,Sampson,Maintenance,Supervisor,43638.0,2022-04-19,Active
+EMP00052,HOT0083,Robert,Morales,HR,Technician,29391.0,2025-01-07,On Leave
+EMP00053,HOT0226,Caitlin,Todd,Finance,Supervisor,84486.0,2022-05-15,Resigned
+EMP00054,HOT0160,David,Thornton,Housekeeping,Associate,123913.0,2022-10-09,Active
+EMP00055,HOT0179,Randall,Cantrell,Front Office,Associate,42418.0,2018-12-08,On Leave
+EMP00056,HOT0184,Jennifer,Morris,IT,Technician,57541.0,2022-02-19,On Leave
+EMP00057,HOT0055,Amy,Howell,Food & Beverage,Supervisor,89409.0,2021-12-07,Active
+EMP00058,HOT0150,Joshua,Dickson,Maintenance,Supervisor,137588.0,2025-01-03,On Leave
+EMP00059,HOT0093,Thomas,Watts,Security,Supervisor,105616.0,2017-08-28,Active
+EMP00060,HOT0010,Shannon,Nunez,Front Office,Executive,85806.0,2021-02-05,Resigned
+EMP00061,HOT0226,Rhonda,Kim,Maintenance,Executive,97582.0,2022-04-01,Resigned
+EMP00062,HOT0176,Debra,Thompson,HR,Manager,141418.0,2023-10-18,Active
+EMP00063,HOT0090,Lisa,Nelson,IT,Executive,105684.0,2017-09-12,Active
+EMP00064,HOT0137,Andrew,Perez,Security,Executive,101778.0,2019-04-12,On Leave
+EMP00065,HOT0035,Tina,Thompson,Security,Technician,67823.0,2018-01-11,Active
+EMP00066,HOT0159,Edgar,Kim,Maintenance,Manager,40439.0,2018-10-02,Resigned
+EMP00067,HOT0216,Patricia,Cantu,IT,Manager,68683.0,2025-11-08,On Leave
+EMP00068,HOT0134,Joseph,Werner,Front Office,Manager,112681.0,2021-09-18,Resigned
+EMP00069,HOT0117,Paul,Guerrero,Maintenance,Technician,126828.0,2018-06-28,Resigned
+EMP00070,HOT0232,Ashley,Hughes,HR,Supervisor,98466.0,2023-02-12,On Leave
+EMP00071,HOT0153,Ann,Clark,Front Office,Executive,77107.0,2017-05-31,On Leave
+EMP00072,HOT0126,Madison,Buck,Finance,Supervisor,136453.0,2019-12-31,On Leave
+EMP00073,HOT0235,Danielle,Shepard,Security,Executive,102030.0,2018-01-15,Resigned
+EMP00074,HOT0004,Bryan,Dyer,Finance,Executive,88722.0,2023-08-15,Resigned
+EMP00075,HOT0074,Derrick,Poole,Food & Beverage,Supervisor,44844.0,2018-06-18,Resigned
+EMP00076,HOT0059,Barbara,Morris,Food & Beverage,Associate,110116.0,2025-08-03,On Leave
+EMP00077,HOT0044,Victor,Mack,Food & Beverage,Supervisor,68918.0,2024-06-05,Resigned
+EMP00078,HOT0174,Travis,Miller,IT,Manager,95460.0,2018-12-27,On Leave
+EMP00079,HOT0086,Kenneth,Raymond,HR,Supervisor,93349.0,2019-12-16,Resigned
+EMP00080,HOT0227,Kyle,Russo,Housekeeping,Supervisor,106540.0,2022-02-11,Resigned
+EMP00081,HOT0119,Michael,Moore,HR,Executive,49210.0,2025-10-04,Active
+EMP00082,HOT0241,Russell,Clark,Food & Beverage,Executive,135983.0,2026-04-13,Resigned
+EMP00083,HOT0109,Mark,Bradford,IT,Manager,82107.0,2019-12-09,Resigned
+EMP00084,HOT0147,Jessica,Moore,IT,Technician,84508.0,2021-01-27,On Leave
+EMP00085,HOT0119,Jeffrey,Young,Housekeeping,Technician,141088.0,2020-11-16,Resigned
+EMP00086,HOT0058,Brandon,Johnson,Housekeeping,Executive,45819.0,2016-09-01,On Leave
+EMP00087,HOT0168,Ronald,Smith,HR,Executive,132431.0,2026-01-13,On Leave
+EMP00088,HOT0208,Juan,Ferrell,Front Office,Technician,139743.0,2026-07-02,On Leave
+EMP00089,HOT0126,Edwin,Smith,HR,Manager,91610.0,2023-09-18,Resigned
+EMP00090,HOT0136,Courtney,Lewis,Security,Executive,55056.0,2019-11-17,On Leave
+EMP00091,HOT0039,Allison,Kelley,Maintenance,Supervisor,67894.0,2019-12-05,Resigned
+EMP00092,HOT0195,Ashley,Foster,Food & Beverage,Supervisor,29972.0,2020-12-06,On Leave
+EMP00093,HOT0161,Mark,Reynolds,Security,Executive,35314.0,2023-06-10,Active
+EMP00094,HOT0244,Tyler,Miller,Housekeeping,Associate,144962.0,2025-12-19,Active
+EMP00095,HOT0226,Edgar,Jones,Housekeeping,Associate,130692.0,2022-04-20,On Leave
+EMP00096,HOT0053,Molly,Gonzales,Housekeeping,Technician,108828.0,2023-09-08,Active
+EMP00097,HOT0016,Joseph,Stafford,HR,Executive,36886.0,2026-07-10,On Leave
+EMP00098,HOT0019,Holly,Carr,Food & Beverage,Supervisor,110639.0,2025-10-29,Resigned
+EMP00099,HOT0055,Sherry,Boone,Front Office,Executive,144471.0,2026-05-08,Resigned
+EMP00100,HOT0087,David,Mckinney,IT,Associate,104276.0,2025-01-03,On Leave
+EMP00101,HOT0123,Michael,Fisher,Maintenance,Supervisor,129657.0,2025-12-15,Active
+EMP00102,HOT0106,Whitney,Thompson,Finance,Technician,144887.0,2024-09-24,Active
+EMP00103,HOT0033,Kimberly,Butler,Food & Beverage,Technician,111238.0,2018-03-14,Active
+EMP00104,HOT0177,Joshua,Stokes,Food & Beverage,Manager,76340.0,2017-06-02,Active
+EMP00105,HOT0105,Teresa,Davidson,Finance,Supervisor,69562.0,2023-06-19,Resigned
+EMP00106,HOT0149,Michelle,Wilkerson,IT,Manager,128794.0,2025-08-24,On Leave
+EMP00107,HOT0121,Robert,Jenkins,IT,Associate,40746.0,2016-11-13,Resigned
+EMP00108,HOT0087,Bonnie,Lawson,Food & Beverage,Technician,81229.0,2022-04-02,Active
+EMP00109,HOT0173,Juan,Todd,Food & Beverage,Manager,108704.0,2016-10-03,Active
+EMP00110,HOT0017,William,Hancock,Finance,Manager,106723.0,2020-09-14,Active
+EMP00111,HOT0073,Vincent,Hansen,Maintenance,Manager,68233.0,2017-07-18,Active
+EMP00112,HOT0182,Wayne,Griffin,IT,Technician,34383.0,2022-11-01,On Leave
+EMP00113,HOT0212,Shane,King,Food & Beverage,Associate,68736.0,2018-11-18,Resigned
+EMP00114,HOT0013,Dennis,Butler,Food & Beverage,Supervisor,66927.0,2018-11-09,Resigned
+EMP00115,HOT0066,Shawn,Caldwell,IT,Executive,61365.0,2023-04-25,On Leave
+EMP00116,HOT0068,Catherine,Byrd,Front Office,Technician,122373.0,2018-03-07,On Leave
+EMP00117,HOT0167,Susan,Waters,HR,Supervisor,51658.0,2020-09-23,Resigned
+EMP00118,HOT0249,Brandon,Garcia,Security,Associate,86126.0,2023-07-28,Resigned
+EMP00119,HOT0250,Jacob,Schwartz,Finance,Executive,84180.0,2019-09-18,On Leave
+EMP00120,HOT0229,Kenneth,Goodman,HR,Executive,86244.0,2020-02-16,On Leave
+EMP00121,HOT0051,Nicholas,Giles,Maintenance,Supervisor,58942.0,2018-01-10,Active
+EMP00122,HOT0248,David,Hughes,Maintenance,Manager,67799.0,2021-09-03,Active
+EMP00123,HOT0080,Kim,Morales,Front Office,Manager,,2023-03-30,Resigned
+EMP00124,HOT0049,Regina,Chambers,HR,Executive,33509.0,2019-01-09,Resigned
+EMP00125,HOT0161,Carlos,Carter,Housekeeping,Technician,65918.0,2025-06-20,Active
+EMP00126,HOT0189,Angela,Everett,Food & Beverage,Executive,70872.0,2017-06-07,Active
+EMP00127,HOT0168,Brian,Salinas,Housekeeping,Supervisor,96864.0,2022-09-27,Resigned
+EMP00128,HOT0040,David,Chang,HR,Technician,87880.0,2022-05-11,Active
+EMP00129,HOT0014,Kelsey,Fernandez,IT,Supervisor,88868.0,2021-07-19,Active
+EMP00130,HOT0189,Amy,Anthony,Maintenance,Supervisor,40055.0,2021-06-13,On Leave
+EMP00131,HOT0052,Cassidy,Strickland,Security,Associate,143185.0,2023-02-03,On Leave
+EMP00132,HOT0008,Robert,Maynard,Maintenance,Associate,92265.0,2018-10-08,Resigned
+EMP00133,HOT0062,Luke,Gomez,Security,Technician,91923.0,2019-09-28,Resigned
+EMP00134,HOT0143,Julie,Randolph,Security,Associate,135688.0,2017-12-10,On Leave
+EMP00135,HOT0098,Mark,Reyes,Maintenance,Associate,146193.0,2024-03-10,Resigned
+EMP00136,HOT0032,Bradley,Li,Finance,Executive,61032.0,2025-03-25,Active
+EMP00137,HOT0220,John,Smith,HR,Technician,37073.0,2022-04-26,On Leave
+EMP00138,HOT0007,Rebecca,Sullivan,Front Office,Associate,79858.0,2019-07-28,On Leave
+EMP00139,HOT0158,Mark,Barker,Housekeeping,Manager,,2021-05-24,On Leave
+EMP00140,HOT0086,Robert,Murphy,HR,Manager,94009.0,2020-02-24,On Leave
+EMP00141,HOT0213,Dennis,Phelps,Finance,Executive,49257.0,2016-10-10,Resigned
+EMP00142,HOT0065,Nicole,Sellers,IT,Associate,89690.0,2018-03-21,On Leave
+EMP00143,HOT0054,John,Fisher,Maintenance,Manager,35436.0,2019-11-18,Active
+EMP00144,HOT0028,Anthony,Holden,Housekeeping,Executive,125934.0,2021-07-19,On Leave
+EMP00145,HOT0117,Daniel,Gomez,Front Office,Executive,133685.0,2019-07-19,Active
+EMP00146,HOT0212,Sara,Leon,Food & Beverage,Technician,39210.0,2024-01-15,On Leave
+EMP00147,HOT0136,Diamond,Guerrero,Finance,Manager,139350.0,2019-01-05,On Leave
+EMP00148,HOT0148,Seth,French,Front Office,Executive,122896.0,2023-09-09,Resigned
+EMP00149,HOT0216,Heather,Knight,Maintenance,Manager,73730.0,2023-11-05,Resigned
+EMP00150,HOT0044,Hunter,Chase,Maintenance,Associate,138465.0,2017-12-01,On Leave
+EMP00151,HOT0105,Toni,Smith,Maintenance,Executive,45467.0,2022-08-01,Active
+EMP00152,HOT0184,Marcus,Haley,Finance,Manager,60502.0,2021-04-15,Active
+EMP00153,HOT0081,Michael,Collins,Maintenance,Technician,94160.0,2016-09-16,Resigned
+EMP00154,HOT0043,Barry,Ballard,Maintenance,Technician,140273.0,2024-08-24,Active
+EMP00155,HOT0065,Jenna,Neal,Finance,Technician,127005.0,2017-09-25,Active
+EMP00156,HOT0216,Catherine,Martinez,Housekeeping,Executive,44551.0,2022-07-06,Active
+EMP00157,HOT0197,Adam,Soto,Housekeeping,Manager,94230.0,2018-12-05,On Leave
+EMP00158,HOT0014,James,Rangel,Maintenance,Technician,141275.0,2016-12-07,Active
+EMP00159,HOT0054,Tonya,York,Front Office,Supervisor,64392.0,2023-04-10,Resigned
+EMP00160,HOT0174,Nicole,Martinez,HR,Executive,135050.0,2019-12-29,Active
+EMP00161,HOT0149,Samantha,Farmer,HR,Technician,112639.0,2021-03-07,On Leave
+EMP00162,HOT0164,Joshua,Schwartz,Maintenance,Supervisor,33006.0,2020-11-18,On Leave
+EMP00163,HOT0158,Daisy,Joyce,Finance,Manager,130995.0,2017-01-03,Resigned
+EMP00164,HOT0185,Lauren,Miller,Housekeeping,Supervisor,99192.0,2019-09-22,Resigned
+EMP00165,HOT0203,Cynthia,Khan,Security,Technician,99386.0,2025-08-18,On Leave
+EMP00166,HOT0034,Miranda,Butler,HR,Manager,140215.0,2020-01-09,Resigned
+EMP00167,HOT0075,Jared,Hogan,IT,Associate,31796.0,2025-09-22,Active
+EMP00168,HOT0216,Nicole,Wilkins,Housekeeping,Supervisor,61590.0,2025-02-13,Active
+EMP00169,HOT0021,Laura,Boyd,Maintenance,Executive,105014.0,2023-05-29,Resigned
+EMP00170,HOT0208,Kimberly,Thompson,Security,Associate,69743.0,2026-01-27,Resigned
+EMP00171,HOT0211,Christopher,Jones,Security,Supervisor,80446.0,2020-04-01,Active
+EMP00172,HOT0168,Scott,Murphy,Front Office,Associate,81602.0,2020-09-27,Active
+EMP00173,HOT0071,Crystal,Blair,Maintenance,Supervisor,67083.0,2024-02-14,Active
+EMP00174,HOT0033,Adam,Jones,Finance,Supervisor,62299.0,2019-08-25,On Leave
+EMP00175,HOT0003,Carol,Mcknight,Finance,Associate,114094.0,2026-04-30,Active
+EMP00176,HOT0196,Thomas,Hendricks,Security,Technician,110095.0,2019-10-14,Resigned
+EMP00177,HOT0244,Kari,Moore,Food & Beverage,Supervisor,40111.0,2017-06-20,Resigned
+EMP00178,HOT0070,David,Cunningham,HR,Associate,96871.0,2020-05-19,Active
+EMP00179,HOT0139,Hannah,Monroe,Maintenance,Supervisor,108854.0,2023-02-06,Active
+EMP00180,HOT0058,Elizabeth,Schultz,HR,Associate,58082.0,2023-06-08,Resigned
+EMP00181,HOT0204,Gloria,Martin,Maintenance,Technician,51552.0,2026-01-09,On Leave
+EMP00182,HOT0065,Barbara,Graves,IT,Technician,86050.0,2021-07-25,Resigned
+EMP00183,HOT0036,Justin,Hutchinson,Security,Associate,110650.0,2020-08-21,On Leave
+EMP00184,HOT0143,James,Conley,Housekeeping,Associate,31407.0,2026-06-08,Active
+EMP00185,HOT0100,Glenn,Moore,IT,Executive,99885.0,2024-02-22,Active
+EMP00186,HOT0180,Kristina,Torres,Security,Supervisor,61684.0,2018-08-27,Active
+EMP00187,HOT0230,Joshua,Washington,Security,Manager,111411.0,2016-10-01,Active
+EMP00188,HOT0024,Nathan,Sandoval,IT,Associate,129444.0,2018-10-02,Resigned
+EMP00189,HOT0060,Ethan,Frazier,Maintenance,Associate,135442.0,2021-07-11,On Leave
+EMP00190,HOT0184,Gary,Phillips,Security,Manager,75254.0,2019-06-27,Resigned
+EMP00191,HOT0099,Craig,Sanchez,Food & Beverage,Associate,40635.0,2021-03-19,Active
+EMP00192,HOT0188,Maria,Smith,Food & Beverage,Associate,60227.0,2017-09-25,Active
+EMP00193,HOT0057,Carrie,Wong,Finance,Manager,75916.0,2022-04-26,Active
+EMP00194,HOT0149,Denise,Mcdonald,Food & Beverage,Technician,119791.0,2026-02-01,Active
+EMP00195,HOT0248,Michael,Curry,Security,Associate,49783.0,2025-04-30,Resigned
+EMP00196,HOT0193,Michelle,Schmidt,Finance,Executive,139178.0,2023-03-30,On Leave
+EMP00197,HOT0141,Frank,Willis,Security,Manager,123470.0,2022-11-29,Active
+EMP00198,HOT0213,Ashley,Oneal,Front Office,Executive,114544.0,2018-08-24,On Leave
+EMP00199,HOT0167,David,Mitchell,Housekeeping,Associate,62168.0,2026-03-08,Resigned
+EMP00200,HOT0170,Matthew,Malone,Maintenance,Supervisor,96231.0,2025-06-14,On Leave
+EMP00201,HOT0222,Jonathan,Cummings,IT,Associate,62307.0,2024-01-20,Active
+EMP00202,HOT0003,Amy,Mahoney,Maintenance,Executive,44609.0,2021-02-06,On Leave
+EMP00203,HOT0029,Elizabeth,Matthews,Security,Associate,,2020-03-18,Resigned
+EMP00204,HOT0175,Michael,Johnston,Maintenance,Technician,82047.0,2016-12-05,On Leave
+EMP00205,HOT0189,Michael,Petersen,Food & Beverage,Technician,65874.0,2024-03-30,Resigned
+EMP00206,HOT0059,Andrew,Collins,HR,Technician,62015.0,2026-05-19,Active
+EMP00207,HOT0143,Regina,Barry,Security,Associate,67450.0,2023-07-23,On Leave
+EMP00208,HOT0041,Alison,Perez,Maintenance,Technician,123720.0,2022-12-23,On Leave
+EMP00209,HOT0075,Kimberly,Palmer,Food & Beverage,Supervisor,85516.0,2019-02-04,Active
+EMP00210,HOT0144,Anthony,Beltran,Security,Technician,126082.0,2019-08-12,Resigned
+EMP00211,HOT0186,Logan,Church,HR,Associate,130183.0,2020-05-22,Active
+EMP00212,HOT0094,Scott,Thompson,Finance,Technician,,2021-09-25,Active
+EMP00213,HOT0111,Brett,Torres,Food & Beverage,Technician,115945.0,2020-05-06,On Leave
+EMP00214,HOT0181,Michael,Flowers,Housekeeping,Associate,111719.0,2020-03-21,Resigned
+EMP00215,HOT0093,Sarah,Wilson,Security,Supervisor,59997.0,2021-11-04,Active
+EMP00216,HOT0183,Gene,Dean,IT,Executive,95338.0,2022-10-23,Resigned
+EMP00217,HOT0097,Andrew,Brown,Housekeeping,Manager,50144.0,2020-03-16,Resigned
+EMP00218,HOT0235,Samantha,Ortiz,Finance,Manager,110309.0,2022-08-02,On Leave
+EMP00219,HOT0075,Kimberly,Smith,IT,Manager,54741.0,2023-10-09,Resigned
+EMP00220,HOT0104,Robin,Ayers,IT,Technician,60147.0,2020-10-29,Active
+EMP00221,HOT0177,Tiffany,Nicholson,Maintenance,Associate,48358.0,2020-01-08,Active
+EMP00222,HOT0235,Brian,Thomas,Security,Associate,86424.0,2020-01-16,Resigned
+EMP00223,HOT0227,Jeffrey,Flores,Finance,Executive,117210.0,2016-10-27,On Leave
+EMP00224,HOT0052,Charlene,Stone,Maintenance,Executive,106271.0,2017-05-26,Resigned
+EMP00225,HOT0056,James,Adams,Security,Supervisor,,2022-08-17,Active
+EMP00226,HOT0098,William,Hardy,Security,Executive,68219.0,2018-04-13,On Leave
+EMP00227,HOT0207,Lindsay,Coleman,Front Office,Executive,109696.0,2021-12-04,Active
+EMP00228,HOT0140,Adam,Thompson,HR,Manager,37215.0,2022-10-04,On Leave
+EMP00229,HOT0131,Justin,Murray,Maintenance,Supervisor,104435.0,2016-08-04,Active
+EMP00230,HOT0166,John,Smith,Housekeeping,Manager,64110.0,2026-03-07,Active
+EMP00231,HOT0004,Matthew,Newman,Front Office,Executive,85659.0,2017-05-14,Active
+EMP00232,HOT0019,Sheila,Reed,Food & Beverage,Associate,137698.0,2024-08-17,On Leave
+EMP00233,HOT0177,Brian,Henson,HR,Associate,27678.0,2026-05-15,Active
+EMP00234,HOT0088,Amanda,Chapman,IT,Technician,26038.0,2020-02-04,On Leave
+EMP00235,HOT0057,Joseph,Brady,Housekeeping,Technician,141048.0,2025-01-24,Active
+EMP00236,HOT0217,Heidi,Wong,Finance,Technician,117313.0,2025-12-28,On Leave
+EMP00237,HOT0132,Thomas,Morgan,Finance,Manager,30191.0,2016-08-27,Active
+EMP00238,HOT0141,Kathryn,Cordova,Housekeeping,Executive,112584.0,2025-11-04,On Leave
+EMP00239,HOT0022,Aaron,Obrien,Food & Beverage,Associate,65707.0,2017-09-27,Active
+EMP00240,HOT0034,David,Barnett,Finance,Supervisor,74081.0,2025-07-16,On Leave
+EMP00241,HOT0072,David,Wright,HR,Manager,41097.0,2020-12-25,Active
+EMP00242,HOT0045,Jason,Thomas,Security,Manager,79396.0,2023-03-04,Resigned
+EMP00243,HOT0068,Wendy,Rivera,IT,Manager,134189.0,2023-08-02,Resigned
+EMP00244,HOT0166,Melissa,Moore,Security,Executive,38766.0,2021-03-27,On Leave
+EMP00245,HOT0044,Derek,Hodges,Housekeeping,Associate,144898.0,2025-11-11,Active
+EMP00246,HOT0220,Jeffrey,Kennedy,Finance,Manager,45518.0,2019-04-28,Active
+EMP00247,HOT0201,Amy,Lewis,Security,Technician,51850.0,2023-12-06,On Leave
+EMP00248,HOT0057,Rachel,Lopez,Security,Supervisor,123552.0,2022-10-07,Active
+EMP00249,HOT0134,Maria,Reynolds,Food & Beverage,Technician,134810.0,2017-01-29,On Leave
+EMP00250,HOT0220,Chloe,Rogers,Housekeeping,Technician,78774.0,2019-07-12,Active
+EMP00251,HOT0013,Dwayne,Hernandez,IT,Associate,62098.0,2023-12-23,On Leave
+EMP00252,HOT0094,Mark,Guerra,Security,Manager,86245.0,2022-02-24,Resigned
+EMP00253,HOT0182,Lori,Boyer,Finance,Associate,55148.0,2019-09-24,On Leave
+EMP00254,HOT0105,Darlene,Hernandez,Maintenance,Executive,129700.0,2017-02-13,Resigned
+EMP00255,HOT0027,Steven,Le,HR,Executive,138069.0,2023-01-22,On Leave
+EMP00256,HOT0198,Crystal,Sanford,Finance,Associate,70795.0,2019-01-21,Active
+EMP00257,HOT0100,Alexandra,Diaz,Maintenance,Manager,106176.0,2022-11-22,Active
+EMP00258,HOT0042,Julie,Hayes,Front Office,Executive,106164.0,2023-05-31,Active
+EMP00259,HOT0053,Margaret,Boyer,Food & Beverage,Technician,102705.0,2017-01-04,Resigned
+EMP00260,HOT0233,Catherine,Le,Maintenance,Technician,104975.0,2020-01-29,Active
+EMP00261,HOT0035,Mallory,Rodriguez,Maintenance,Supervisor,122149.0,2021-05-31,Resigned
+EMP00262,HOT0007,Kimberly,Hudson,HR,Manager,45077.0,2018-06-26,Resigned
+EMP00263,HOT0024,Kenneth,Gonzalez,Housekeeping,Technician,123859.0,2024-10-27,Active
+EMP00264,HOT0140,Sean,Davies,IT,Associate,55346.0,2018-04-19,Active
+EMP00265,HOT0001,Alex,Salazar,Front Office,Supervisor,35702.0,2017-01-28,On Leave
+EMP00266,HOT0162,Amanda,Bradley,Finance,Technician,50456.0,2021-01-18,Active
+EMP00267,HOT0046,Sean,Booth,IT,Supervisor,69330.0,2026-05-22,Active
+EMP00268,HOT0064,Lauren,Jones,HR,Manager,143260.0,2020-10-07,On Leave
+EMP00269,HOT0032,Robert,Cruz,Housekeeping,Supervisor,61685.0,2023-04-28,On Leave
+EMP00270,HOT0070,Kevin,Russell,Housekeeping,Technician,91598.0,2018-12-30,On Leave
+EMP00271,HOT0166,Louis,Hill,Housekeeping,Executive,108681.0,2020-09-30,On Leave
+EMP00272,HOT0025,Jean,Calderon,Finance,Supervisor,120438.0,2018-07-05,Resigned
+EMP00273,HOT0189,Rachel,Grant,IT,Executive,42457.0,2020-04-06,Active
+EMP00274,HOT0125,Shelby,Watts,Food & Beverage,Associate,54193.0,2017-07-01,Resigned
+EMP00275,HOT0005,Tony,Sullivan,Maintenance,Executive,126650.0,2022-08-08,Resigned
+EMP00276,HOT0095,Ashley,Lamb,Maintenance,Associate,36058.0,2020-12-24,On Leave
+EMP00277,HOT0136,Kathryn,Carter,Front Office,Technician,82707.0,2017-05-28,On Leave
+EMP00278,HOT0208,Ronald,Butler,Finance,Manager,134371.0,2019-11-29,Resigned
+EMP00279,HOT0232,Joshua,Wood,Front Office,Manager,27036.0,2025-03-01,On Leave
+EMP00280,HOT0177,Richard,Harvey,Security,Executive,65142.0,2025-03-25,On Leave
+EMP00281,HOT0165,Lucas,Goodman,HR,Executive,40024.0,2018-04-06,Active
+EMP00282,HOT0077,Charlotte,Moore,Finance,Associate,33179.0,2024-01-16,On Leave
+EMP00283,HOT0110,Richard,Houston,IT,Technician,129761.0,2022-04-11,Active
+EMP00284,HOT0155,Christina,Palmer,IT,Supervisor,142936.0,2020-07-26,Active
+EMP00285,HOT0003,Kathryn,Gaines,Maintenance,Manager,41093.0,2017-12-09,Resigned
+EMP00286,HOT0139,Kevin,Hernandez,Front Office,Associate,78668.0,2022-09-27,Resigned
+EMP00287,HOT0012,Joseph,Rodriguez,Food & Beverage,Technician,43230.0,2017-06-27,Resigned
+EMP00288,HOT0143,Derek,Parks,Housekeeping,Manager,83650.0,2022-08-15,On Leave
+EMP00289,HOT0144,Edward,Lee,IT,Technician,27348.0,2017-02-10,On Leave
+EMP00290,HOT0040,Mary,Evans,HR,Supervisor,,2026-02-13,Resigned
+EMP00291,HOT0223,Sarah,Silva,Food & Beverage,Manager,93954.0,2019-03-15,Active
+EMP00292,HOT0004,Christina,Meyer,HR,Manager,108638.0,2024-07-30,Resigned
+EMP00293,HOT0047,Mackenzie,Jefferson,Housekeeping,Associate,144586.0,2025-12-18,Active
+EMP00294,HOT0176,Jeremy,Flowers,Front Office,Supervisor,78087.0,2017-09-01,On Leave
+EMP00295,HOT0244,Crystal,Guerra,Finance,Supervisor,120772.0,2022-01-01,Resigned
+EMP00296,HOT0125,Charles,Davis,Front Office,Technician,,2025-11-11,Resigned
+EMP00297,HOT0238,Daniel,Guerra,Maintenance,Technician,72976.0,2020-05-03,Resigned
+EMP00298,HOT0047,Theresa,Mann,Housekeeping,Associate,111102.0,2017-05-06,On Leave
+EMP00299,HOT0132,Scott,Kennedy,HR,Associate,133656.0,2019-10-17,Resigned
+EMP00300,HOT0077,Charles,Thomas,Maintenance,Manager,70785.0,2019-11-12,Resigned
+EMP00301,HOT0050,Tracy,Jordan,IT,Supervisor,73132.0,2019-08-14,On Leave
+EMP00302,HOT0041,Madison,Walker,Maintenance,Technician,125056.0,2024-10-05,On Leave
+EMP00303,HOT0180,Kyle,Lopez,Housekeeping,Manager,68967.0,2024-03-31,On Leave
+EMP00304,HOT0015,Micheal,Gomez,Food & Beverage,Manager,132516.0,2021-04-18,Active
+EMP00305,HOT0144,Darrell,Robbins,Maintenance,Technician,94841.0,2022-08-26,On Leave
+EMP00306,HOT0162,Darlene,Chase,Front Office,Executive,-5000.0,2021-05-21,Active
+EMP00307,HOT0100,Maria,Martinez,IT,Manager,29606.0,2018-04-17,Resigned
+EMP00308,HOT0068,Tina,Little,Food & Beverage,Manager,67669.0,2020-05-20,Active
+EMP00309,HOT0079,Anita,Sanchez,Housekeeping,Supervisor,98035.0,2017-08-16,Active
+EMP00310,HOT0249,Dawn,Foster,Food & Beverage,Executive,97912.0,2024-07-25,On Leave
+EMP00311,HOT0122,Megan,Gomez,Front Office,Supervisor,109890.0,2020-03-18,On Leave
+EMP00312,HOT0041,Shannon,Johnson,Security,Executive,27193.0,2019-10-10,Resigned
+EMP00313,HOT0076,Angela,Jimenez,Security,Technician,25924.0,2022-01-29,Resigned
+EMP00314,HOT0090,Latoya,Evans,IT,Executive,137139.0,2026-04-26,Active
+EMP00315,HOT0149,Stacy,Sherman,HR,Associate,44475.0,2025-04-24,Active
+EMP00316,HOT0197,Brittany,Johnson,HR,Manager,82668.0,2017-03-16,Resigned
+EMP00317,HOT0227,Jessica,Jensen,Food & Beverage,Executive,124356.0,2023-08-27,Active
+EMP00318,HOT0049,Michael,James,Finance,Executive,142771.0,2020-11-18,Resigned
+EMP00319,HOT0095,Laura,Long,Finance,Executive,94867.0,2024-11-20,Active
+EMP00320,HOT0008,Christopher,Bennett,Front Office,Technician,71580.0,2025-12-09,Active
+EMP00321,HOT0175,Jackie,Farrell,Housekeeping,Executive,26910.0,2025-09-19,On Leave
+EMP00322,HOT0141,Pamela,Allen,Housekeeping,Associate,139147.0,2021-08-19,Resigned
+EMP00323,HOT0187,Christine,Reed,HR,Executive,121721.0,2026-05-25,Resigned
+EMP00324,HOT0100,Dominic,Taylor,IT,Executive,103517.0,2017-09-26,On Leave
+EMP00325,HOT0091,Robert,Gonzalez,Maintenance,Executive,92922.0,2023-05-12,Active
+EMP00326,HOT0096,Deborah,Sanchez,Security,Supervisor,76284.0,2020-03-25,On Leave
+EMP00327,HOT0092,Joshua,Frederick,Front Office,Technician,85555.0,2019-03-13,Resigned
+EMP00328,HOT0022,Joseph,Mcdonald,Maintenance,Technician,141411.0,2019-05-29,Resigned
+EMP00329,HOT0193,Courtney,Stevens,Finance,Manager,118644.0,2021-06-24,On Leave
+EMP00330,HOT0022,Matthew,Pearson,HR,Manager,40875.0,2018-09-29,Active
+EMP00331,HOT0066,Tonya,Lambert,Security,Technician,111126.0,2021-11-07,Resigned
+EMP00332,HOT0138,Jeffrey,Perry,Finance,Executive,118077.0,2017-06-20,On Leave
+EMP00333,HOT0120,Timothy,Williamson,Front Office,Supervisor,59590.0,2023-04-03,On Leave
+EMP00334,HOT0182,Joan,Valenzuela,Security,Technician,27173.0,2021-11-21,Active
+EMP00335,HOT0017,Frank,Smith,IT,Executive,88414.0,2017-05-24,Active
+EMP00336,HOT0080,April,Harper,Front Office,Supervisor,140454.0,2018-12-07,Resigned
+EMP00337,HOT0162,Christine,Wong,Housekeeping,Executive,101238.0,2026-03-23,On Leave
+EMP00338,HOT0024,William,Macias,Finance,Manager,64374.0,2017-01-27,On Leave
+EMP00339,HOT0187,Kevin,Pena,Maintenance,Supervisor,137067.0,2021-06-26,Resigned
+EMP00340,HOT0011,Gary,Jones,Housekeeping,Manager,79324.0,2020-05-05,Active
+EMP00341,HOT0234,Roy,Spencer,Finance,Associate,53078.0,2017-05-31,Active
+EMP00342,HOT0185,Andrew,Estrada,Finance,Manager,88060.0,2017-07-31,On Leave
+EMP00343,HOT0212,Kelly,Rodriguez,Food & Beverage,Technician,98137.0,2022-07-30,Resigned
+EMP00344,HOT0045,Wendy,Dickerson,Finance,Technician,87861.0,2023-05-01,Resigned
+EMP00345,HOT0224,Sandra,Stone,Housekeeping,Associate,131462.0,2026-05-08,On Leave
+EMP00346,HOT0230,Andrew,Huber,HR,Manager,116096.0,2016-08-09,On Leave
+EMP00347,HOT0140,John,Love,Housekeeping,Executive,84465.0,2021-02-20,Active
+EMP00348,HOT0042,Sean,Kline,Finance,Technician,54002.0,2025-08-15,Resigned
+EMP00349,HOT0017,Todd,Reynolds,Security,Technician,54733.0,2023-02-13,Active
+EMP00350,HOT0101,Catherine,Harrison,Front Office,Supervisor,138352.0,2025-06-20,On Leave
+EMP00351,HOT0046,Alexis,Jenkins,Housekeeping,Manager,51194.0,2020-12-09,Active
+EMP00352,HOT0205,Courtney,Clark,Maintenance,Technician,128286.0,2022-12-15,On Leave
+EMP00353,HOT0184,Tina,Brown,Food & Beverage,Technician,36368.0,2021-02-10,Active
+EMP00354,HOT0069,Dawn,Hill,Maintenance,Associate,65335.0,2020-07-04,Resigned
+EMP00355,HOT0182,Patricia,Ware,Food & Beverage,Executive,121936.0,2022-12-01,Active
+EMP00356,HOT0060,Betty,Hardy,Housekeeping,Manager,102650.0,2016-11-06,On Leave
+EMP00357,HOT0042,Christopher,Hogan,IT,Manager,132824.0,2017-06-17,Resigned
+EMP00358,HOT0248,Rebecca,Raymond,Front Office,Technician,102717.0,2018-02-24,Active
+EMP00359,HOT0250,Timothy,Brown,Front Office,Executive,71699.0,2025-09-07,Resigned
+EMP00360,HOT0221,Karen,Scott,IT,Technician,55239.0,2024-09-22,Resigned
+EMP00361,HOT0040,Kevin,Wallace,IT,Executive,106978.0,2025-07-06,Active
+EMP00362,HOT0158,Tina,Baker,Front Office,Associate,98483.0,2023-12-19,On Leave
+EMP00363,HOT0075,Amy,Hodges,IT,Supervisor,50741.0,2018-04-09,Resigned
+EMP00364,HOT0233,Kimberly,Taylor,Maintenance,Executive,47435.0,2022-01-09,On Leave
+EMP00365,HOT0237,Steven,Potter,Food & Beverage,Associate,94148.0,2018-04-12,On Leave
+EMP00366,HOT0234,Christopher,Lewis,Security,Supervisor,57386.0,2018-06-17,Active
+EMP00367,HOT0029,Colleen,Kelly,Maintenance,Associate,119690.0,2017-10-16,On Leave
+EMP00368,HOT0103,Ashley,Newton,HR,Supervisor,56495.0,2022-03-20,Resigned
+EMP00369,HOT0110,Matthew,White,Housekeeping,Technician,145480.0,2017-12-25,Resigned
+EMP00370,HOT0034,Diana,Hill,Maintenance,Associate,68057.0,2025-12-26,Resigned
+EMP00371,HOT0149,Michael,Forbes,Security,Technician,30699.0,2018-06-14,Active
+EMP00372,HOT0039,Kenneth,Newton,Food & Beverage,Executive,95170.0,2020-01-17,Resigned
+EMP00373,HOT0237,Jacob,Foster,Housekeeping,Manager,83007.0,2017-07-08,Active
+EMP00374,HOT0187,Bradley,Erickson,HR,Technician,70829.0,2019-06-08,Active
+EMP00375,HOT0215,Courtney,Roman,Housekeeping,Associate,58532.0,2021-04-29,Resigned
+EMP00376,HOT0032,Sarah,Davis,Maintenance,Associate,47411.0,2021-06-26,On Leave
+EMP00377,HOT0163,Maurice,Pham,Finance,Technician,,2022-03-10,On Leave
+EMP00378,HOT0059,Krista,Lee,HR,Manager,83206.0,2017-01-03,Active
+EMP00379,HOT0125,John,Coleman,Finance,Manager,97137.0,2024-03-01,Active
+EMP00380,HOT0179,Jessica,White,Finance,Technician,84659.0,2020-01-09,On Leave
+EMP00381,HOT0177,Amy,Hunter,IT,Technician,141178.0,2026-05-06,Active
+EMP00382,HOT0024,Kimberly,King,Front Office,Technician,38296.0,2019-06-05,Active
+EMP00383,HOT0024,Kristin,Pineda,Front Office,Technician,44927.0,2019-03-23,Active
+EMP00384,HOT0029,Austin,Freeman,Finance,Executive,,2020-08-05,Active
+EMP00385,HOT0032,Kristen,Wright,HR,Supervisor,94605.0,2017-12-17,On Leave
+EMP00386,HOT0233,Jennifer,Lewis,Housekeeping,Associate,129244.0,2025-12-19,Active
+EMP00387,HOT0141,Francis,Carter,Finance,Technician,58408.0,2020-07-23,Active
+EMP00388,HOT0069,Cindy,Cox,Security,Supervisor,25830.0,2024-01-01,Resigned
+EMP00389,HOT0034,Ashley,Wilson,Maintenance,Manager,110951.0,2019-10-29,Active
+EMP00390,HOT0134,Regina,Wood,Finance,Supervisor,131563.0,2023-01-19,Resigned
+EMP00391,HOT0034,Anthony,Johnson,Food & Beverage,Manager,110506.0,2023-04-30,Active
+EMP00392,HOT0131,John,Moreno,Food & Beverage,Associate,,2018-07-01,Active
+EMP00393,HOT0243,Courtney,Cordova,Food & Beverage,Supervisor,51642.0,2022-02-14,On Leave
+EMP00394,HOT0153,Patrick,Roberts,Food & Beverage,Technician,115001.0,2022-11-18,Active
+EMP00395,HOT0210,Gabrielle,Rivas,Front Office,Supervisor,91184.0,2016-11-14,Active
+EMP00396,HOT0244,Cynthia,Warner,Food & Beverage,Manager,104592.0,2024-10-07,On Leave
+EMP00397,HOT0002,Bradley,Barnes,HR,Technician,71180.0,2021-04-18,On Leave
+EMP00398,HOT0055,Carla,Wilson,Food & Beverage,Associate,114376.0,2021-07-05,Active
+EMP00399,HOT0066,Kimberly,Sellers,Housekeeping,Supervisor,56930.0,2017-11-29,Active
+EMP00400,HOT0244,Andre,Riddle,IT,Supervisor,35460.0,2016-08-30,Resigned
+EMP00401,HOT0193,Paul,Brandt,Housekeeping,Executive,88423.0,2018-10-10,Resigned
+EMP00402,HOT0207,Ricky,Boyd,IT,Manager,70848.0,2025-08-16,Resigned
+EMP00403,HOT0102,Michael,Mitchell,IT,Associate,111240.0,2024-07-21,Resigned
+EMP00404,HOT0030,Alex,Ferguson,Housekeeping,Technician,116263.0,2026-07-12,Active
+EMP00405,HOT0064,Thomas,Johnson,Maintenance,Supervisor,68684.0,2018-06-01,On Leave
+EMP00406,HOT0136,Russell,Jones,Food & Beverage,Manager,95420.0,2023-09-03,Active
+EMP00407,HOT0075,Derrick,Bright,Front Office,Manager,114392.0,2020-07-03,On Leave
+EMP00408,HOT0179,Julian,Bentley,HR,Executive,,2017-09-01,On Leave
+EMP00409,HOT0248,Caitlin,Marshall,Food & Beverage,Executive,-5000.0,2018-03-17,Active
+EMP00410,HOT0070,Margaret,Lane,Finance,Supervisor,66256.0,2022-03-28,On Leave
+EMP00411,HOT0250,Zachary,Knox,Food & Beverage,Manager,112734.0,2020-12-11,Resigned
+EMP00412,HOT0162,Sierra,Ball,Security,Executive,79374.0,2025-11-08,On Leave
+EMP00413,HOT0050,Samantha,Garcia,IT,Supervisor,73249.0,2025-02-08,Resigned
+EMP00414,HOT0114,Amber,Young,Food & Beverage,Manager,69950.0,2022-02-10,On Leave
+EMP00415,HOT0002,Taylor,Hooper,HR,Associate,125509.0,2019-02-15,Resigned
+EMP00416,HOT0230,Yvette,Fisher,IT,Associate,83365.0,2018-12-16,Active
+EMP00417,HOT0246,Bonnie,Kim,IT,Executive,91370.0,2026-07-02,On Leave
+EMP00418,HOT0025,Kimberly,Robinson,Security,Manager,56675.0,2018-02-26,On Leave
+EMP00419,HOT0163,Laura,Hernandez,IT,Associate,94750.0,2021-08-13,Resigned
+EMP00420,HOT0053,Robin,Crawford,Food & Beverage,Supervisor,33135.0,2018-09-09,On Leave
+EMP00421,HOT0077,Monica,Young,Food & Beverage,Associate,149529.0,2019-06-05,Resigned
+EMP00422,HOT0173,Lauren,Ingram,Housekeeping,Technician,124454.0,2023-10-25,On Leave
+EMP00423,HOT0244,John,Mcdonald,IT,Associate,48519.0,2025-07-17,On Leave
+EMP00424,HOT0221,Daniel,Wilson,HR,Executive,,2024-03-09,Resigned
+EMP00425,HOT0036,Courtney,Jones,Security,Supervisor,111458.0,2021-05-14,Resigned
+EMP00426,HOT0075,Denise,Santana,Security,Executive,53457.0,2018-09-12,Active
+EMP00427,HOT0216,Jay,Moore,Housekeeping,Supervisor,139670.0,2024-01-16,Active
+EMP00428,HOT0058,Daniel,Conley,Front Office,Technician,95020.0,2023-12-04,Active
+EMP00429,HOT0037,Trevor,Miller,Finance,Executive,53135.0,2022-06-23,On Leave
+EMP00430,HOT0096,Nicole,Rogers,IT,Supervisor,26651.0,2021-03-13,On Leave
+EMP00431,HOT0080,Jeremy,Cohen,HR,Manager,136580.0,2019-11-25,Active
+EMP00432,HOT0033,Garrett,Robbins,HR,Supervisor,49724.0,2026-04-28,Active
+EMP00433,HOT0121,Carrie,Smith,Front Office,Technician,108100.0,2025-04-23,On Leave
+EMP00434,HOT0049,Robert,Hall,Front Office,Supervisor,28728.0,2023-04-16,Active
+EMP00435,HOT0035,Jackson,Baker,Security,Technician,127562.0,2025-08-14,Resigned
+EMP00436,HOT0102,Cristina,Allen,HR,Manager,144678.0,2024-10-12,On Leave
+EMP00437,HOT0246,Megan,Aguilar,Security,Technician,118124.0,2023-10-20,Active
+EMP00438,HOT0036,Pamela,Yu,Finance,Supervisor,94680.0,2023-02-13,Active
+EMP00439,HOT0035,Austin,Moody,Housekeeping,Manager,121699.0,2017-12-10,Resigned
+EMP00440,HOT0097,Justin,Wells,Food & Beverage,Technician,144845.0,2017-10-31,On Leave
+EMP00441,HOT0129,Randall,Klein,Food & Beverage,Supervisor,52103.0,2025-03-30,Active
+EMP00442,HOT0153,Elizabeth,Crawford,Maintenance,Technician,53964.0,2024-02-10,Resigned
+EMP00443,HOT0107,Tina,Mitchell,HR,Executive,93696.0,2025-04-03,Active
+EMP00444,HOT0163,Wendy,Sanchez,IT,Technician,77607.0,2020-11-23,Active
+EMP00445,HOT0024,Diane,Atkins,Maintenance,Manager,112808.0,2017-02-01,On Leave
+EMP00446,HOT0077,John,Green,Finance,Associate,111322.0,2023-02-09,On Leave
+EMP00447,HOT0126,Shaun,Hanna,Food & Beverage,Associate,55787.0,2016-09-11,Resigned
+EMP00448,HOT0239,Rebecca,Reed,Finance,Associate,135602.0,2017-12-08,Active
+EMP00449,HOT0031,Brandon,Daniels,Front Office,Supervisor,34092.0,2021-10-15,Active
+EMP00450,HOT0121,Andrew,Calderon,HR,Supervisor,81337.0,2017-12-17,Resigned
+EMP00451,HOT0143,Edward,Moore,Finance,Executive,70904.0,2025-05-14,Resigned
+EMP00452,HOT0193,Matthew,Parker,IT,Supervisor,140175.0,2023-05-03,On Leave
+EMP00453,HOT0138,Jessica,Bailey,IT,Executive,65362.0,2022-10-18,On Leave
+EMP00454,HOT0044,John,Miller,Finance,Manager,139925.0,2020-08-23,Active
+EMP00455,HOT0217,Sheila,Richardson,HR,Technician,77033.0,2016-10-11,Resigned
+EMP00456,HOT0023,Joshua,Brown,Security,Executive,51370.0,2021-04-12,On Leave
+EMP00457,HOT0008,Patricia,Walton,HR,Executive,136293.0,2026-01-26,Active
+EMP00458,HOT0137,Jason,Collins,Finance,Executive,104683.0,2018-11-18,Resigned
+EMP00459,HOT0100,Travis,Harrison,IT,Executive,137201.0,2024-11-18,Active
+EMP00460,HOT0208,Barbara,Nelson,Housekeeping,Technician,34318.0,2021-04-12,Resigned
+EMP00461,HOT0067,Ashley,Mclaughlin,Security,Manager,46250.0,2026-02-12,Resigned
+EMP00462,HOT0106,Nicole,Morales,Maintenance,Manager,44015.0,2026-03-09,Resigned
+EMP00463,HOT0200,Ashley,Martin,Housekeeping,Supervisor,95983.0,2025-01-17,Resigned
+EMP00464,HOT0101,Michael,Sanchez,HR,Executive,140673.0,2022-08-26,Active
+EMP00465,HOT0106,Christopher,Vaughn,Security,Executive,125199.0,2017-08-23,On Leave
+EMP00466,HOT0044,Brandon,Fowler,HR,Technician,65694.0,2024-08-06,On Leave
+EMP00467,HOT0069,Daniel,Morse,Finance,Supervisor,86845.0,2023-12-13,Resigned
+EMP00468,HOT0176,Tony,Webster,Security,Executive,60090.0,2026-03-19,On Leave
+EMP00469,HOT0248,Amy,Brown,Security,Executive,74249.0,2016-12-14,Resigned
+EMP00470,HOT0188,Mary,Fisher,Security,Associate,102923.0,2024-04-13,On Leave
+EMP00471,HOT0060,Tony,Williams,Finance,Executive,131779.0,2022-03-01,Active
+EMP00472,HOT0116,Michael,Rodriguez,Front Office,Supervisor,118710.0,2023-05-07,Active
+EMP00473,HOT0112,Victoria,Hood,Housekeeping,Supervisor,53401.0,2020-11-20,On Leave
+EMP00474,HOT0092,Raymond,Mitchell,Maintenance,Supervisor,47237.0,2017-05-17,Resigned
+EMP00475,HOT0049,Michele,Hernandez,Security,Associate,106321.0,2020-10-29,Active
+EMP00476,HOT0070,Jacqueline,Carney,Finance,Executive,85328.0,2016-10-01,Active
+EMP00477,HOT0174,Kimberly,Jones,Security,Supervisor,142428.0,2018-01-02,On Leave
+EMP00478,HOT0093,Madeline,Fields,Front Office,Technician,43166.0,2020-05-29,On Leave
+EMP00479,HOT0188,Michelle,Skinner,IT,Associate,51905.0,2020-06-09,On Leave
+EMP00480,HOT0102,Charles,King,Front Office,Associate,53095.0,2023-04-28,Resigned
+EMP00481,HOT0217,Damon,Parker,Security,Technician,67044.0,2022-05-03,Active
+EMP00482,HOT0209,Karen,Benson,IT,Executive,92269.0,2021-12-13,Active
+EMP00483,HOT0056,Jill,Wood,Maintenance,Associate,116614.0,2021-11-18,Resigned
+EMP00484,HOT0120,Kelsey,Dixon,IT,Executive,29953.0,2019-05-10,Active
+EMP00485,HOT0062,Benjamin,Castro,Front Office,Executive,92848.0,2023-05-25,Active
+EMP00486,HOT0148,Evelyn,Garcia,HR,Executive,120917.0,2026-05-30,On Leave
+EMP00487,HOT0205,Roy,Kim,Housekeeping,Executive,113967.0,2020-09-09,Active
+EMP00488,HOT0095,Joshua,Garrett,IT,Supervisor,138342.0,2018-02-24,Resigned
+EMP00489,HOT0152,Matthew,Calderon,Food & Beverage,Technician,142570.0,2021-01-18,Active
+EMP00490,HOT0039,Brandon,Sanders,Food & Beverage,Supervisor,83031.0,2017-11-14,Active
+EMP00491,HOT0056,Andrew,Morton,Maintenance,Executive,99518.0,2019-01-05,On Leave
+EMP00492,HOT0233,Tina,Jones,Food & Beverage,Manager,109370.0,2020-02-04,Resigned
+EMP00493,HOT0070,Jerry,Black,HR,Supervisor,142906.0,2023-02-10,On Leave
+EMP00494,HOT0178,Theresa,Yates,Food & Beverage,Manager,125516.0,2024-01-04,On Leave
+EMP00495,HOT0184,Kenneth,Strong,Food & Beverage,Associate,92098.0,2016-08-19,On Leave
+EMP00496,HOT0169,Eric,Nelson,Maintenance,Supervisor,80606.0,2022-08-21,Resigned
+EMP00497,HOT0186,Tristan,Robinson,Housekeeping,Associate,26207.0,2016-08-22,On Leave
+EMP00498,HOT0054,Michael,Williams,Maintenance,Supervisor,106058.0,2018-08-17,On Leave
+EMP00499,HOT0032,Raymond,Jimenez,Finance,Technician,129341.0,2026-03-02,Active
+EMP00500,HOT0157,Samantha,Dixon,Food & Beverage,Associate,96508.0,2023-11-20,On Leave
+EMP00501,HOT0131,Elizabeth,Mendoza,Front Office,Manager,29202.0,2020-01-29,Resigned
+EMP00502,HOT0069,Troy,Pena,HR,Technician,147011.0,2025-04-18,On Leave
+EMP00503,HOT0245,Kaitlyn,Steele,Security,Associate,65350.0,2019-07-28,Resigned
+EMP00504,HOT0087,Bruce,Wolf,Maintenance,Associate,90370.0,2024-06-04,Resigned
+EMP00505,HOT0099,Michael,Thompson,Finance,Technician,25073.0,2022-09-09,Active
+EMP00506,HOT0036,Patricia,Walton,Finance,Executive,100385.0,2024-03-20,Resigned
+EMP00507,HOT0082,Rachel,Walker,Housekeeping,Supervisor,140775.0,2023-07-09,On Leave
+EMP00508,HOT0134,Antonio,Sweeney,Housekeeping,Technician,83933.0,2024-08-02,Resigned
+EMP00509,HOT0189,Jose,White,Maintenance,Supervisor,108848.0,2018-03-19,Resigned
+EMP00510,HOT0244,Susan,Miles,Maintenance,Executive,45689.0,2021-10-06,Active
+EMP00511,HOT0192,Stephanie,Hart,Finance,Supervisor,112927.0,2020-02-23,Resigned
+EMP00512,HOT0111,Michael,Willis,Finance,Manager,109486.0,2024-10-09,On Leave
+EMP00513,HOT0205,Martin,Mckay,Front Office,Associate,45542.0,2019-06-30,On Leave
+EMP00514,HOT0063,Michael,Leblanc,HR,Associate,129036.0,2025-11-02,Resigned
+EMP00515,HOT0040,John,Anderson,Food & Beverage,Supervisor,101240.0,2018-02-07,On Leave
+EMP00516,HOT0242,Jennifer,King,Security,Manager,25474.0,2025-02-10,On Leave
+EMP00517,HOT0013,Brett,Reeves,Maintenance,Manager,109142.0,2019-11-25,Active
+EMP00518,HOT0173,Robert,Wood,Housekeeping,Manager,103358.0,2022-03-31,Resigned
+EMP00519,HOT0169,Michael,Long,Front Office,Associate,125346.0,2017-03-04,Active
+EMP00520,HOT0019,Jennifer,Pacheco,Security,Manager,120588.0,2025-02-21,Active
+EMP00521,HOT0226,Jesse,Johnson,Food & Beverage,Associate,95093.0,2023-07-07,Resigned
+EMP00522,HOT0185,William,Chan,Security,Technician,134945.0,2025-04-24,On Leave
+EMP00523,HOT0005,Mary,Craig,HR,Executive,91198.0,2025-03-26,Resigned
+EMP00524,HOT0178,James,Mccormick,Security,Technician,64634.0,2020-06-12,Resigned
+EMP00525,HOT0224,Keith,House,IT,Associate,125811.0,2018-04-15,On Leave
+EMP00526,HOT0076,Maria,Bailey,Housekeeping,Associate,126701.0,2022-10-03,Resigned
+EMP00527,HOT0144,Kelly,Flores,Housekeeping,Technician,109890.0,2019-08-14,On Leave
+EMP00528,HOT0012,Felicia,Brooks,Security,Manager,127341.0,2019-02-07,Resigned
+EMP00529,HOT0006,Johnny,Knight,IT,Technician,43202.0,2024-05-07,Active
+EMP00530,HOT0070,Maria,Martinez,Food & Beverage,Associate,39264.0,2019-10-14,Active
+EMP00531,HOT0055,Michelle,Castillo,HR,Technician,60476.0,2020-11-20,On Leave
+EMP00532,HOT0238,Marc,Mccormick,IT,Associate,121374.0,2020-02-02,Active
+EMP00533,HOT0037,Arthur,Greene,Maintenance,Executive,80461.0,2024-07-30,On Leave
+EMP00534,HOT0106,Brian,Berry,Food & Beverage,Manager,25234.0,2019-08-09,Active
+EMP00535,HOT0004,Crystal,Oliver,Food & Beverage,Associate,33513.0,2019-09-14,On Leave
+EMP00536,HOT0149,Michael,Haynes,HR,Supervisor,46481.0,2017-09-22,Resigned
+EMP00537,HOT0056,Jill,Sanders,HR,Associate,119275.0,2025-07-23,Resigned
+EMP00538,HOT0068,Joshua,Cooper,Food & Beverage,Supervisor,29332.0,2023-03-04,Resigned
+EMP00539,HOT0229,Matthew,Barber,Security,Technician,52895.0,2026-07-13,Resigned
+EMP00540,HOT0131,Kevin,Johnson,HR,Supervisor,70334.0,2017-05-04,On Leave
+EMP00541,HOT0113,Veronica,Bailey,Maintenance,Manager,126500.0,2020-11-22,Resigned
+EMP00542,HOT0249,Richard,Benson,IT,Supervisor,29708.0,2022-06-03,Resigned
+EMP00543,HOT0047,Michael,Ferguson,Front Office,Supervisor,82854.0,2019-03-19,Active
+EMP00544,HOT0134,Eric,Morris,HR,Associate,68872.0,2022-06-07,Resigned
+EMP00545,HOT0011,Elizabeth,Walker,Housekeeping,Technician,33278.0,2026-07-22,Resigned
+EMP00546,HOT0242,Gabriel,Clark,IT,Associate,30033.0,2021-05-13,On Leave
+EMP00547,HOT0116,Tara,Shah,Maintenance,Associate,110736.0,2022-08-24,Resigned
+EMP00548,HOT0217,Vanessa,Mendoza,IT,Manager,147100.0,2021-10-30,Resigned
+EMP00549,HOT0069,Sarah,Carter,Front Office,Executive,101358.0,2023-03-31,On Leave
+EMP00550,HOT0222,Jacob,Taylor,Food & Beverage,Manager,91919.0,2019-01-12,On Leave
+EMP00551,HOT0070,Michael,Thompson,Front Office,Executive,55249.0,2026-05-24,Resigned
+EMP00552,HOT0127,Anthony,Williams,Maintenance,Executive,134804.0,2021-09-21,Resigned
+EMP00553,HOT0086,Allen,Phillips,IT,Supervisor,29790.0,2025-12-16,On Leave
+EMP00554,HOT0120,Dylan,Boyd,Maintenance,Executive,,2018-10-24,Active
+EMP00555,HOT0104,Diane,Reed,Maintenance,Manager,44622.0,2019-01-06,On Leave
+EMP00556,HOT0030,Laura,Russell,Front Office,Manager,58148.0,2021-03-18,Resigned
+EMP00557,HOT0247,Laurie,Bass,Front Office,Technician,88900.0,2023-04-13,On Leave
+EMP00558,HOT0032,Ariel,Johnson,Security,Executive,46767.0,2018-07-31,Active
+EMP00559,HOT0128,Ryan,Ward,Maintenance,Supervisor,128359.0,2017-01-18,Resigned
+EMP00560,HOT0124,Michael,Collins,Housekeeping,Executive,126902.0,2018-12-11,On Leave
+EMP00561,HOT0167,Pamela,Wolfe,Security,Executive,53696.0,2022-04-21,Active
+EMP00562,HOT0210,Sara,Merritt,Maintenance,Executive,50219.0,2019-05-12,Active
+EMP00563,HOT0158,Jill,Flowers,Finance,Supervisor,38976.0,2024-06-11,Resigned
+EMP00564,HOT0057,Melissa,Sanchez,HR,Supervisor,129772.0,2022-03-04,Active
+EMP00565,HOT0020,Ryan,Weeks,Finance,Manager,140749.0,2019-12-31,On Leave
+EMP00566,HOT0092,Christopher,Lee,Finance,Supervisor,66971.0,2023-07-28,Resigned
+EMP00567,HOT0052,Kathryn,Wagner,Front Office,Associate,29822.0,2024-08-29,Resigned
+EMP00568,HOT0142,Megan,Gonzalez,IT,Supervisor,125317.0,2023-06-20,Active
+EMP00569,HOT0189,Andrew,Martin,Housekeeping,Executive,79495.0,2024-03-01,Resigned
+EMP00570,HOT0149,David,Porter,Finance,Supervisor,128536.0,2018-09-14,On Leave
+EMP00571,HOT0221,Andrea,Alvarez,IT,Technician,135331.0,2024-04-04,Active
+EMP00572,HOT0026,Kimberly,Kaiser,Front Office,Executive,42480.0,2022-04-27,Resigned
+EMP00573,HOT0214,Nicole,Rogers,Finance,Technician,63152.0,2019-07-16,On Leave
+EMP00574,HOT0250,Jennifer,Castillo,Security,Supervisor,67627.0,2022-03-16,Active
+EMP00575,HOT0074,Charlotte,Franklin,Front Office,Associate,82670.0,2022-10-21,On Leave
+EMP00576,HOT0049,Richard,Cole,Finance,Supervisor,84193.0,2025-08-09,Resigned
+EMP00577,HOT0148,Nathan,Chavez,Maintenance,Manager,111236.0,2023-05-12,Resigned
+EMP00578,HOT0226,Jessica,Taylor,HR,Associate,146892.0,2025-01-16,On Leave
+EMP00579,HOT0019,Taylor,Thomas,Housekeeping,Associate,91603.0,2017-06-14,Resigned
+EMP00580,HOT0011,Erica,White,IT,Supervisor,53880.0,2021-05-26,Resigned
+EMP00581,HOT0206,Mallory,Brown,Finance,Executive,95914.0,2026-01-07,Resigned
+EMP00582,HOT0004,Haley,Christian,IT,Technician,141167.0,2024-07-10,Active
+EMP00583,HOT0049,Brenda,Warren,Front Office,Technician,105605.0,2020-03-12,On Leave
+EMP00584,HOT0160,Juan,Hicks,Food & Beverage,Supervisor,28732.0,2021-09-22,Active
+EMP00585,HOT0194,Teresa,Newton,Security,Associate,84665.0,2016-12-10,On Leave
+EMP00586,HOT0002,Mackenzie,Davis,Finance,Supervisor,116001.0,2022-02-02,Resigned
+EMP00587,HOT0025,Mitchell,Wallace,Front Office,Manager,119319.0,2017-07-26,Resigned
+EMP00588,HOT0099,Breanna,Long,Maintenance,Executive,49845.0,2021-08-06,On Leave
+EMP00589,HOT0211,Elizabeth,Martinez,IT,Manager,140622.0,2023-01-12,On Leave
+EMP00590,HOT0220,Jennifer,Hunt,Food & Beverage,Manager,36179.0,2025-04-18,Active
+EMP00591,HOT0083,Wendy,Green,Security,Associate,145680.0,2021-01-09,Active
+EMP00592,HOT0032,Jessica,Rosales,HR,Supervisor,78230.0,2024-09-08,Active
+EMP00593,HOT0050,Nicholas,Russell,Security,Technician,62476.0,2025-11-06,Active
+EMP00594,HOT0195,Kelly,Wilson,Food & Beverage,Supervisor,65772.0,2022-12-29,Resigned
+EMP00595,HOT0063,Ruben,Guerrero,Finance,Associate,47630.0,2022-07-12,Resigned
+EMP00596,HOT0094,Christine,Carter,IT,Manager,127479.0,2018-01-22,On Leave
+EMP00597,HOT0086,Adrian,Decker,IT,Supervisor,91049.0,2024-12-12,On Leave
+EMP00598,HOT0130,Walter,Crawford,Security,Associate,130610.0,2019-06-24,On Leave
+EMP00599,HOT0039,Pam,Larsen,Maintenance,Associate,137405.0,2026-04-14,Active
+EMP00600,HOT0020,Justin,Hoffman,Finance,Executive,134474.0,2024-08-16,Active
+EMP00601,HOT0057,Jenny,Boyd,Front Office,Technician,41207.0,2024-05-13,Active
+EMP00602,HOT0162,Brandon,Galvan,Housekeeping,Executive,46988.0,2022-04-18,On Leave
+EMP00603,HOT0184,Jason,Watson,HR,Manager,95848.0,2021-11-21,On Leave
+EMP00604,HOT0116,Eric,Cohen,IT,Technician,90404.0,2018-05-13,Resigned
+EMP00605,HOT0091,Eric,Johnson,Security,Associate,127831.0,2016-08-15,Resigned
+EMP00606,HOT0010,Rebecca,Diaz,Housekeeping,Associate,83541.0,2024-03-16,On Leave
+EMP00607,HOT0075,Joseph,Watkins,Food & Beverage,Supervisor,66505.0,2019-04-15,Resigned
+EMP00608,HOT0185,Sarah,Johnston,Maintenance,Supervisor,61455.0,2019-01-24,On Leave
+EMP00609,HOT0216,Nancy,Anderson,Front Office,Manager,123366.0,2016-09-13,Active
+EMP00610,HOT0146,Victoria,Miller,Food & Beverage,Executive,41060.0,2026-03-06,On Leave
+EMP00611,HOT0218,Cheryl,Lee,HR,Manager,106361.0,2025-02-13,Resigned
+EMP00612,HOT0009,David,Garcia,Front Office,Executive,34983.0,2022-10-06,Active
+EMP00613,HOT0206,Tonya,Lloyd,HR,Executive,63238.0,2018-06-02,Active
+EMP00614,HOT0185,Joseph,Ayers,Food & Beverage,Associate,36150.0,2016-09-14,Resigned
+EMP00615,HOT0067,Shane,Johnson,Maintenance,Supervisor,52789.0,2018-12-08,Active
+EMP00616,HOT0150,John,Hodges,Security,Manager,40868.0,2022-07-21,On Leave
+EMP00617,HOT0232,Kristen,Mitchell,Housekeeping,Technician,101588.0,2026-06-04,On Leave
+EMP00618,HOT0218,Bryan,Scott,IT,Executive,85386.0,2025-11-18,On Leave
+EMP00619,HOT0112,David,Morgan,Food & Beverage,Manager,131227.0,2023-05-06,On Leave
+EMP00620,HOT0008,Cody,Terry,Finance,Technician,86025.0,2020-05-23,Resigned
+EMP00621,HOT0010,Scott,Hill,Front Office,Supervisor,36220.0,2025-03-12,Resigned
+EMP00622,HOT0018,Erin,Vargas,Food & Beverage,Technician,144773.0,2020-09-21,Resigned
+EMP00623,HOT0163,Randy,Sanchez,Food & Beverage,Supervisor,55403.0,2023-08-17,Resigned
+EMP00624,HOT0146,Christy,Martinez,Food & Beverage,Manager,147839.0,2022-08-23,Active
+EMP00625,HOT0088,Mary,Merritt,IT,Technician,130023.0,2024-08-20,Active
+EMP00626,HOT0015,Lauren,Doyle,Security,Supervisor,96118.0,2025-12-27,Resigned
+EMP00627,HOT0024,Anthony,Bautista,Maintenance,Associate,121980.0,2017-09-23,On Leave
+EMP00628,HOT0128,Darryl,Page,Maintenance,Supervisor,145947.0,2021-09-17,Resigned
+EMP00629,HOT0050,Sergio,Gonzalez,Food & Beverage,Technician,60898.0,2020-01-14,Resigned
+EMP00630,HOT0174,William,Nash,Maintenance,Associate,136812.0,2019-08-30,Active
+EMP00631,HOT0178,Richard,Alvarez,Housekeeping,Executive,31329.0,2025-04-21,Resigned
+EMP00632,HOT0128,Brittany,Kaiser,HR,Executive,74557.0,2019-06-03,Resigned
+EMP00633,HOT0198,Michael,Velez,Food & Beverage,Manager,53752.0,2016-12-02,On Leave
+EMP00634,HOT0008,David,Estrada,Housekeeping,Executive,86230.0,2016-12-22,Active
+EMP00635,HOT0048,Michelle,Stark,Maintenance,Technician,88896.0,2024-05-06,On Leave
+EMP00636,HOT0007,Timothy,Carlson,Front Office,Technician,129919.0,2024-12-22,Resigned
+EMP00637,HOT0116,Marvin,Roberts,HR,Technician,86383.0,2025-09-14,Resigned
+EMP00638,HOT0213,Marcia,Murphy,Security,Manager,33755.0,2025-03-24,Resigned
+EMP00639,HOT0077,Kristina,Floyd,IT,Executive,125087.0,2025-11-21,Resigned
+EMP00640,HOT0198,Cody,Butler,Maintenance,Technician,,2026-01-02,Resigned
+EMP00641,HOT0054,Derrick,Roberts,Housekeeping,Manager,108365.0,2018-12-30,Resigned
+EMP00642,HOT0034,Barry,Hicks,HR,Executive,30917.0,2022-01-27,Resigned
+EMP00643,HOT0071,Leslie,Rogers,Security,Supervisor,46427.0,2017-04-19,Resigned
+EMP00644,HOT0141,Kiara,Vang,Food & Beverage,Manager,43918.0,2021-04-11,Active
+EMP00645,HOT0090,Wyatt,Walker,Housekeeping,Manager,130730.0,2021-04-08,On Leave
+EMP00646,HOT0187,Joseph,Cruz,Finance,Executive,79818.0,2026-03-01,Active
+EMP00647,HOT0172,Joseph,Jordan,Maintenance,Technician,134724.0,2022-03-08,On Leave
+EMP00648,HOT0036,Daniel,Mason,Food & Beverage,Manager,70393.0,2019-01-07,On Leave
+EMP00649,HOT0058,Barbara,Cox,Security,Executive,60525.0,2023-02-10,On Leave
+EMP00650,HOT0226,Sheri,Phillips,IT,Technician,139612.0,2019-06-17,Active
+EMP00651,HOT0088,Haley,Gutierrez,Front Office,Supervisor,59263.0,2018-10-20,On Leave
+EMP00652,HOT0076,Maureen,Haynes,HR,Supervisor,38468.0,2018-11-27,Active
+EMP00653,HOT0033,Autumn,Mcintyre,Security,Technician,127580.0,2023-11-29,Resigned
+EMP00654,HOT0127,Joanne,Jones,IT,Supervisor,128011.0,2023-03-01,Active
+EMP00655,HOT0210,Tara,Mills,HR,Technician,95835.0,2022-06-04,On Leave
+EMP00656,HOT0183,Kimberly,Allen,Maintenance,Technician,96188.0,2025-09-27,Resigned
+EMP00657,HOT0007,Michael,Freeman,Security,Technician,98015.0,2021-07-28,On Leave
+EMP00658,HOT0029,Brandi,Dixon,Food & Beverage,Technician,123950.0,2019-12-24,Resigned
+EMP00659,HOT0097,Kelly,Ford,Food & Beverage,Manager,133839.0,2023-09-29,On Leave
+EMP00660,HOT0178,Cheryl,Doyle,Front Office,Associate,46521.0,2018-05-22,Resigned
+EMP00661,HOT0003,William,Gregory,IT,Technician,104890.0,2026-03-26,Resigned
+EMP00662,HOT0053,Samantha,Anderson,Front Office,Associate,75076.0,2019-02-19,Active
+EMP00663,HOT0173,Melissa,Whitaker,Security,Technician,74925.0,2021-10-25,On Leave
+EMP00664,HOT0038,Tyler,Keller,Maintenance,Manager,64115.0,2020-10-18,Active
+EMP00665,HOT0161,Keith,Johnson,Security,Manager,129792.0,2022-06-13,Resigned
+EMP00666,HOT0206,Eduardo,Taylor,Front Office,Technician,121027.0,2023-02-20,Resigned
+EMP00667,HOT0157,Joan,Davenport,Housekeeping,Supervisor,143387.0,2024-09-19,Active
+EMP00668,HOT0145,Julie,Garrett,Finance,Manager,41675.0,2018-04-22,Resigned
+EMP00669,HOT0065,David,Trujillo,IT,Associate,93105.0,2024-09-23,Active
+EMP00670,HOT0217,Ronald,Singleton,Food & Beverage,Associate,28546.0,2016-12-04,Active
+EMP00671,HOT0090,Jean,Simpson,Front Office,Supervisor,46489.0,2018-08-10,Active
+EMP00672,HOT0249,Jeffrey,Hensley,Finance,Executive,73900.0,2025-10-04,Active
+EMP00673,HOT0191,Joseph,West,Front Office,Associate,59260.0,2018-07-01,Resigned
+EMP00674,HOT0156,Dylan,Reed,Food & Beverage,Associate,41787.0,2016-07-27,On Leave
+EMP00675,HOT0064,Amanda,Mcdaniel,Housekeeping,Associate,88377.0,2024-04-23,Active
+EMP00676,HOT0194,Lisa,Moreno,Security,Associate,,2021-06-29,On Leave
+EMP00677,HOT0152,Jordan,Tate,Front Office,Executive,120023.0,2023-07-20,On Leave
+EMP00678,HOT0083,Michael,Foley,HR,Manager,63093.0,2020-06-14,Resigned
+EMP00679,HOT0145,Jonathan,Phelps,IT,Associate,136665.0,2018-12-25,On Leave
+EMP00680,HOT0226,Stephanie,Smith,Security,Manager,105749.0,2023-06-15,Resigned
+EMP00681,HOT0073,Lisa,Gaines,Security,Associate,146620.0,2017-03-02,Active
+EMP00682,HOT0093,Jason,Lang,Security,Manager,149265.0,2025-05-06,Active
+EMP00683,HOT0031,Keith,Sawyer,Security,Associate,54009.0,2017-09-30,Resigned
+EMP00684,HOT0215,Caleb,Wyatt,Housekeeping,Executive,,2023-02-23,Resigned
+EMP00685,HOT0008,Jessica,Mcguire,IT,Supervisor,90714.0,2018-10-09,Resigned
+EMP00686,HOT0212,Katherine,Davis,IT,Executive,124597.0,2019-03-28,Resigned
+EMP00687,HOT0193,James,Young,Finance,Associate,145996.0,2018-05-27,Active
+EMP00688,HOT0246,Christopher,Walton,IT,Executive,139081.0,2024-02-25,On Leave
+EMP00689,HOT0201,Brandy,Olson,Finance,Executive,131416.0,2026-05-27,On Leave
+EMP00690,HOT0039,Cindy,Sanders,Security,Supervisor,35913.0,2019-04-10,Active
+EMP00691,HOT0193,Tracy,Lopez,Front Office,Technician,78032.0,2019-03-15,On Leave
+EMP00692,HOT0036,Adam,Phillips,Finance,Manager,33198.0,2022-01-08,Resigned
+EMP00693,HOT0009,Anne,Lowe,Security,Executive,84464.0,2017-01-26,Resigned
+EMP00694,HOT0044,Michael,Hodges,HR,Manager,67418.0,2025-01-28,On Leave
+EMP00695,HOT0119,Matthew,Ryan,Food & Beverage,Executive,31114.0,2026-03-29,Resigned
+EMP00696,HOT0146,James,Turner,Security,Executive,97640.0,2021-03-23,Resigned
+EMP00697,HOT0142,John,Avery,HR,Supervisor,128278.0,2025-07-09,On Leave
+EMP00698,HOT0178,Christy,Aguilar,IT,Manager,48926.0,2020-11-28,On Leave
+EMP00699,HOT0128,Micheal,Johnson,Security,Technician,86968.0,2018-05-02,Active
+EMP00700,HOT0177,Janet,Martinez,Maintenance,Executive,142749.0,2025-10-02,Active
+EMP00701,HOT0157,Amanda,Fitzgerald,Housekeeping,Manager,111107.0,2020-08-20,Resigned
+EMP00702,HOT0054,Warren,Lowe,IT,Executive,,2026-07-22,On Leave
+EMP00703,HOT0030,Toni,Simmons,Front Office,Associate,34096.0,2025-06-21,On Leave
+EMP00704,HOT0052,Danielle,Mullen,Security,Technician,119152.0,2025-01-27,On Leave
+EMP00705,HOT0132,Kelly,Moore,Front Office,Executive,31613.0,2024-10-01,Resigned
+EMP00706,HOT0234,Jacob,Olsen,Housekeeping,Manager,118526.0,2023-09-19,Active
+EMP00707,HOT0042,Deborah,Cooper,Housekeeping,Associate,41618.0,2026-07-22,Active
+EMP00708,HOT0025,Daniel,Gibson,Maintenance,Associate,114782.0,2024-01-22,On Leave
+EMP00709,HOT0192,Jason,Simpson,Housekeeping,Supervisor,39866.0,2019-03-21,Active
+EMP00710,HOT0128,Nancy,Price,Front Office,Executive,54247.0,2026-07-16,On Leave
+EMP00711,HOT0216,Michael,Howard,Security,Executive,114487.0,2021-08-27,On Leave
+EMP00712,HOT0101,Philip,Fuller,Finance,Technician,85711.0,2020-02-11,Resigned
+EMP00713,HOT0088,Bianca,Wallace,Housekeeping,Manager,71430.0,2020-11-17,Active
+EMP00714,HOT0104,Ellen,Perkins,Housekeeping,Technician,128187.0,2025-04-09,Resigned
+EMP00715,HOT0052,Cynthia,Jackson,IT,Associate,39193.0,2024-12-25,Resigned
+EMP00716,HOT0010,Steven,Smith,Security,Manager,133401.0,2018-08-23,Resigned
+EMP00717,HOT0232,Michele,Thompson,Security,Associate,85552.0,2023-12-26,Resigned
+EMP00718,HOT0071,Colleen,Martinez,Housekeeping,Supervisor,108383.0,2021-01-13,On Leave
+EMP00719,HOT0134,Jonathan,Grant,Housekeeping,Associate,48635.0,2023-11-24,On Leave
+EMP00720,HOT0090,Shelby,Ramirez,Housekeeping,Technician,149296.0,2022-08-19,Active
+EMP00721,HOT0157,Arthur,Hansen,Food & Beverage,Manager,140597.0,2017-06-17,Active
+EMP00722,HOT0161,Kaitlyn,Perkins,Security,Supervisor,91876.0,2022-01-23,Active
+EMP00723,HOT0189,George,Robinson,Finance,Manager,96470.0,2025-10-20,Active
+EMP00724,HOT0194,Becky,Joseph,Finance,Supervisor,130316.0,2023-08-01,On Leave
+EMP00725,HOT0098,Donna,Vasquez,Security,Supervisor,143218.0,2020-09-11,Active
+EMP00726,HOT0211,Tyler,Crane,Security,Manager,41993.0,2023-12-22,On Leave
+EMP00727,HOT0240,Kristina,Lawrence,Housekeeping,Technician,39877.0,2021-05-26,On Leave
+EMP00728,HOT0192,Kenneth,Edwards,HR,Executive,29816.0,2018-10-31,Active
+EMP00729,HOT0203,Darren,Miller,Maintenance,Technician,149346.0,2016-12-31,Active
+EMP00730,HOT0150,Amanda,Brooks,HR,Executive,138227.0,2017-05-09,Resigned
+EMP00731,HOT0070,Amy,Hughes,IT,Executive,103568.0,2017-04-07,Active
+EMP00732,HOT0077,Kim,Salazar,Front Office,Supervisor,91891.0,2024-03-11,Resigned
+EMP00733,HOT0230,Eric,Farmer,Food & Beverage,Executive,55469.0,2021-09-21,Active
+EMP00734,HOT0078,Jason,Arroyo,IT,Technician,48616.0,2021-08-19,On Leave
+EMP00735,HOT0184,Aaron,Miller,Food & Beverage,Technician,83516.0,2017-06-22,Resigned
+EMP00736,HOT0009,Kimberly,Thompson,Security,Executive,82006.0,2021-01-25,Resigned
+EMP00737,HOT0086,George,Haney,Food & Beverage,Manager,42797.0,2023-03-30,Resigned
+EMP00738,HOT0079,Christopher,Gross,Food & Beverage,Manager,64986.0,2022-01-03,Resigned
+EMP00739,HOT0115,Brenda,Jimenez,Security,Technician,106191.0,2026-03-09,Resigned
+EMP00740,HOT0140,Alexander,Dixon,Housekeeping,Manager,140957.0,2019-09-25,On Leave
+EMP00741,HOT0242,Melissa,Coleman,Front Office,Supervisor,35432.0,2019-11-05,Active
+EMP00742,HOT0055,Christopher,Saunders,Security,Manager,46712.0,2022-04-28,Active
+EMP00743,HOT0114,Gregory,Rice,Security,Manager,79905.0,2021-05-01,Active
+EMP00744,HOT0194,Haley,Hunt,Maintenance,Executive,133432.0,2025-08-04,Resigned
+EMP00745,HOT0189,Rebecca,Jackson,Security,Associate,48103.0,2017-10-09,On Leave
+EMP00746,HOT0083,Wanda,Galloway,Security,Executive,88323.0,2020-07-18,On Leave
+EMP00747,HOT0140,Andrew,Hood,Maintenance,Technician,120122.0,2019-06-03,On Leave
+EMP00748,HOT0249,Tiffany,Hahn,Maintenance,Manager,141852.0,2023-04-03,On Leave
+EMP00749,HOT0046,Chad,Small,Food & Beverage,Associate,86873.0,2019-10-04,Active
+EMP00750,HOT0059,Sean,Nelson,Security,Manager,101858.0,2020-11-13,Resigned
+EMP00751,HOT0117,Daniel,Duncan,Front Office,Technician,105309.0,2024-08-01,On Leave
+EMP00752,HOT0225,Isabella,Macias,Maintenance,Executive,129943.0,2023-06-01,Active
+EMP00753,HOT0120,Harold,Santos,IT,Supervisor,69412.0,2017-04-09,Active
+EMP00754,HOT0174,Colleen,Johnson,Security,Technician,140320.0,2023-02-13,Resigned
+EMP00755,HOT0037,Spencer,Newton,HR,Technician,55800.0,2016-08-22,On Leave
+EMP00756,HOT0046,Christina,Johnson,HR,Associate,58372.0,2019-11-29,Resigned
+EMP00757,HOT0127,Rodney,Ward,Maintenance,Associate,47623.0,2025-04-13,Resigned
+EMP00758,HOT0051,Roger,Sampson,Finance,Associate,56776.0,2022-04-05,On Leave
+EMP00759,HOT0222,Paul,Smith,Food & Beverage,Manager,45504.0,2022-07-03,Active
+EMP00760,HOT0236,Aimee,Rowe,HR,Supervisor,38315.0,2022-03-03,Resigned
+EMP00761,HOT0189,Allison,Bailey,Front Office,Executive,141682.0,2017-09-21,Active
+EMP00762,HOT0038,Candice,Klein,HR,Supervisor,74618.0,2023-01-22,Active
+EMP00763,HOT0234,Christopher,Garrett,Food & Beverage,Technician,101330.0,2018-02-02,Resigned
+EMP00764,HOT0059,James,Lee,Food & Beverage,Technician,46728.0,2024-11-05,Active
+EMP00765,HOT0094,Susan,Coleman,HR,Executive,112247.0,2023-08-12,Active
+EMP00766,HOT0166,David,Russell,Food & Beverage,Executive,,2026-05-13,Active
+EMP00767,HOT0229,Kathy,Nelson,HR,Technician,133566.0,2018-12-15,On Leave
+EMP00768,HOT0182,John,Evans,Housekeeping,Supervisor,118650.0,2026-04-13,Resigned
+EMP00769,HOT0164,Robert,Garcia,Housekeeping,Associate,45685.0,2024-12-26,Active
+EMP00770,HOT0023,Anthony,Cook,Security,Manager,118877.0,2022-09-20,Resigned
+EMP00771,HOT0213,Laurie,Ramos,HR,Supervisor,78818.0,2017-12-08,Active
+EMP00772,HOT0165,Tammy,Garner,Housekeeping,Manager,30632.0,2025-03-06,Active
+EMP00773,HOT0236,Paul,Lawson,Maintenance,Manager,132552.0,2025-05-08,On Leave
+EMP00774,HOT0147,Nicholas,Hughes,Finance,Supervisor,103263.0,2019-04-15,Resigned
+EMP00775,HOT0089,Sheena,Benson,HR,Associate,32947.0,2026-07-14,Active
+EMP00776,HOT0042,Devon,Marshall,Front Office,Manager,63012.0,2017-08-25,Resigned
+EMP00777,HOT0108,Kevin,Long,Finance,Technician,96117.0,2019-10-07,Resigned
+EMP00778,HOT0168,Christopher,Smith,IT,Associate,88751.0,2024-03-06,Resigned
+EMP00779,HOT0103,William,Moore,Front Office,Supervisor,135773.0,2022-05-31,Active
+EMP00780,HOT0177,Paul,Shaw,Food & Beverage,Technician,78906.0,2023-05-11,Resigned
+EMP00781,HOT0228,Vanessa,Luna,Front Office,Technician,64027.0,2020-07-29,Active
+EMP00782,HOT0088,Todd,Fox,HR,Technician,44001.0,2024-09-23,Active
+EMP00783,HOT0071,Jeffrey,Miller,IT,Executive,119635.0,2026-04-04,Active
+EMP00784,HOT0136,Ronald,Cortez,HR,Executive,53728.0,2023-06-12,On Leave
+EMP00785,HOT0090,Andrew,Valentine,IT,Technician,29599.0,2024-02-17,Resigned
+EMP00786,HOT0216,Justin,Baker,Security,Executive,133446.0,2021-05-31,Resigned
+EMP00787,HOT0064,Michael,Riley,HR,Manager,127940.0,2023-05-13,On Leave
+EMP00788,HOT0051,Danielle,Stewart,IT,Associate,112802.0,2019-09-05,Resigned
+EMP00789,HOT0208,Katherine,Daniel,IT,Technician,59928.0,2019-04-11,Resigned
+EMP00790,HOT0210,Andrea,Vance,Finance,Executive,34477.0,2019-05-20,Resigned
+EMP00791,HOT0223,Douglas,Ryan,Maintenance,Manager,42543.0,2022-01-05,Active
+EMP00792,HOT0172,Cheryl,Kennedy,Maintenance,Associate,113270.0,2023-11-28,On Leave
+EMP00793,HOT0089,Nancy,Davis,IT,Executive,82229.0,2021-02-09,Resigned
+EMP00794,HOT0067,Matthew,Mccann,Housekeeping,Associate,79227.0,2025-01-24,Resigned
+EMP00795,HOT0211,Gloria,Johnson,Finance,Technician,71495.0,2017-04-12,Resigned
+EMP00796,HOT0037,Dana,Richardson,Food & Beverage,Supervisor,28938.0,2020-04-06,Resigned
+EMP00797,HOT0051,Alex,Copeland,Housekeeping,Associate,-5000.0,2020-10-14,Resigned
+EMP00798,HOT0107,Derek,Murphy,Front Office,Supervisor,119405.0,2021-08-08,Resigned
+EMP00799,HOT0222,Jodi,Anderson,IT,Executive,72142.0,2026-05-30,On Leave
+EMP00800,HOT0165,Barbara,Park,Housekeeping,Supervisor,60949.0,2024-09-15,Resigned

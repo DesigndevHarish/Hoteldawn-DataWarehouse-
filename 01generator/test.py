@@ -1,6 +1,4 @@
-from faker import Faker
+from utils import customer_key
 
-fake = Faker()
-
-print(fake.name())
-print(fake.email())
+print(customer_key(1))
+print(customer_key(5000))
