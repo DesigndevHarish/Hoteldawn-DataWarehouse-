@@ -110,7 +110,7 @@ CAMPAIGNS = [
 ]
 
 
-BOOKING_COUNT = 50000
+BOOKING_COUNT = 5000
 
 BOOKING_STATUS = [
     "Completed",
@@ -134,4 +134,27 @@ CURRENCIES = [
     "GBP",
     "AED",
     "SGD"
+]
+
+PAYMENT_METHODS = [
+    "Credit Card",
+    "Debit Card",
+    "UPI",
+    "Net Banking",
+    "Cash",
+    "Wallet"
+]
+
+PAYMENT_GATEWAYS = [
+    "Stripe",
+    "Razorpay",
+    "PayPal",
+    "Cash",
+    "PhonePe"
+]
+
+PAYMENT_STATUS = [
+    "Paid",
+    "Refunded",
+    "Failed"
 ]
