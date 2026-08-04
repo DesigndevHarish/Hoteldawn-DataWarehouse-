@@ -85,7 +85,9 @@ These issues are cleaned during the Silver Layer.
 ```
 HotelVista-DataWarehouse/
 
-│
+├── 00data/
+│   ├── raw/
+│   └── processed/
 ├── 01generator/
 │   ├── customer_generator.py
 │   ├── hotel_generator.py
@@ -100,9 +102,6 @@ HotelVista-DataWarehouse/
 │   ├── config.py
 │   └── utils.py
 │
-├── data/
-│   ├── raw/
-│   └── processed/
 │
 ├── sql/
 │
@@ -114,9 +113,9 @@ HotelVista-DataWarehouse/
 │
 ├── images/
 │
-├── README.md
+├── .gitignore
 │
-└── .gitignore
+└── README.md
 ```
 
 ---
