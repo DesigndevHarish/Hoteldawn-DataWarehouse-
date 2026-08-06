@@ -1,0 +1,22 @@
+version: 2
+
+sources:
+  - name: bronze
+    description: "Raw data loaded from CSV files into the Bronze layer."
+
+    database: HOTEL_DWH
+    schema: BRONZE
+
+    tables:
+
+      - name: bookings
+      - name: customers
+        identifier: customer
+      - name: hotels
+      - name: rooms
+      - name: employees
+      - name: payments
+      - name: promotions
+      - name: reviews
+      - name: room_services
+      - name: exchange_rates
