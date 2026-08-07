@@ -34,9 +34,12 @@ models:
     # Config indicated by + and applies to all files under models/example/
     stage:
       +materialized: view
+      +schema: Silver
     marts:
       fact:
        +materialized: table
+       +schema: Gold
       dim:
        +materialized: table
+       +schema: Gold
     
