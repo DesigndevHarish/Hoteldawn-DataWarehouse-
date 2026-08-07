@@ -14,3 +14,4 @@ try_to_date(registration_date) as registration_date,
 upper(trim(status)) as status,
 
 from {{source('bronze', 'customers')}}
+
