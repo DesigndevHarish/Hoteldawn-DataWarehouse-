@@ -1,0 +1,472 @@
+version: 2
+
+models:
+  - name: stg_bookings
+    description: "Cleaned booking data from the Bronze layer."
+
+    columns:
+
+      - name: booking_id
+        description: "Unique booking identifier."
+
+        tests:
+          - not_null
+          - unique
+
+      - name: customer_id
+        description: "Customer who made the booking."
+
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_customers')
+              field: customer_id
+
+      - name: hotel_id
+        description: "Hotel associated with the booking."
+
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_hotels')
+              field: hotel_id
+
+      - name: room_id
+        description: "Booked room."
+
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_rooms')
+              field: room_id
+
+      - name: promotion_id
+        description: "Promotion applied to the booking, if any."
+
+        tests:
+          - relationships:
+              to: ref('stg_promotions')
+              field: promotion_id
+
+      - name: booking_date
+        description: "Date when the booking was made."
+
+        tests:
+          - not_null
+
+      - name: currency
+        tests:
+          - accepted_values:
+              values:
+                - INR
+                - USD
+                - EUR
+                - GBP
+                - AED
+                - SGD
+
+      - name: booking_status
+        tests:
+          - accepted_values:
+              values:
+                - CONFIRMED
+                - CANCELLED
+                - PENDING
+                - COMPLETED
+                - NO SHOW
+  
+  - name: stg_customers
+    description: "Cleaned customer data from the Bronze layer."
+
+    columns:
+
+      - name: customer_id
+        description: "Unique customer identifier."
+
+        tests:
+          - not_null
+          - unique
+
+      - name: first_name
+        description: "Customer's first name."
+
+        tests:
+          - not_null
+
+      - name: last_name
+        description: "Customer's last name."
+
+        tests:
+          - not_null
+
+      - name: gender
+        description: "Customer's gender."
+
+        tests:
+          - accepted_values:
+              values:
+                - Male
+                - Female
+                - Other
+
+      - name: email
+        description: "Customer's email address."
+
+        tests:
+          - not_null
+          - unique
+
+      - name: phone_number
+        description: "Customer's phone number."
+
+      - name: status
+        description: "Customer's status in the system."
+
+        tests:
+          - accepted_values:
+              values:
+                - ACTIVE
+                - INACTIVE
+                
+  
+  - name: stg_hotels
+    description: "Cleaned hotel data from the Bronze layer."
+
+    columns:
+
+      - name: hotel_id
+        description: "Unique hotel identifier."
+
+        tests:
+          - not_null
+          - unique
+
+      - name: hotel_name
+        description: "Name of the hotel."
+
+        tests:
+          - not_null
+
+     
+
+      - name: rating
+        description: "Rating of the hotel."
+      
+      - name: hotel_status
+        description: "Operational status of the hotel."
+
+        tests:
+          - accepted_values:
+              values:
+                - OPEN
+                - CLOSED
+                - RENOVATION
+  
+  - name: stg_rooms
+    description: "Cleaned room data from the Bronze layer."
+
+    columns:
+
+      - name: room_id
+        description: "Unique room identifier."
+
+        tests:
+          - not_null
+          - unique
+
+      - name: hotel_id
+        description: "Hotel to which the room belongs."
+
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_hotels')
+              field: hotel_id
+
+      - name: room_type
+        description: "Type of the room (e.g., Single, Double, Suite)."
+
+        tests:
+          - not_null
+
+      - name: base_price
+        description: "Price of the room per night."
+
+        tests:
+          - not_null
+
+  - name: stg_payments
+    description: "Cleaned payment data from the Bronze layer."
+
+    columns:
+
+      - name: payment_id
+        description: "Unique payment identifier."
+
+        tests:
+          - not_null
+          - unique
+
+      - name: booking_id
+        description: "Booking associated with the payment."
+
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_bookings')
+              field: booking_id
+
+      - name: payment_amount
+        description: "Amount paid."
+
+        tests:
+          - not_null
+
+      - name: payment_date
+        description: "Date when the payment was made."
+
+        tests:
+          - not_null
+
+      - name: method
+        description: "Method used for the payment (e.g., Credit Card, PayPal)."
+
+        tests:
+          - not_null
+
+      - name: payment_status
+        description: "Status of the payment."
+
+        tests:
+          - accepted_values:
+              values:
+                - PAID
+                - REFUNDED
+                - FAILED
+
+  - name: stg_reviews
+    description: "Cleaned review data from the Bronze layer."
+
+    columns:
+
+      - name: review_id
+        description: "Unique review identifier."
+
+        tests:
+          - not_null
+          - unique
+
+      - name: booking_id
+        description: "Booking associated with the review."
+
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_bookings')
+              field: booking_id
+
+      - name: customer_id
+        description: "Customer who wrote the review."
+
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_customers')
+              field: customer_id
+
+      - name: hotel_id
+        description: "Hotel being reviewed."
+
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_hotels')
+              field: hotel_id
+
+      - name: rating
+        description: "Rating given by the customer."
+
+        tests:
+          - not_null
+          
+
+      - name: feedback_title
+        description: "Title of the customer's feedback."
+
+  - name: stg_promotions
+    description: "Cleaned promotion data from the Bronze layer."
+
+    columns:
+
+      - name: promotion_id
+        description: "Unique promotion identifier."
+
+        tests:
+          - not_null
+          - unique
+
+      - name: campaign_name
+        description: "Name of the promotion."
+
+        tests:
+          - not_null
+
+      - name: discount_percentage
+        description: "Discount percentage offered by the promotion."
+
+        tests:
+          - not_null
+
+      - name: start_date
+        description: "Start date of the promotion."
+
+        tests:
+          - not_null
+
+      - name: end_date
+        description: "End date of the promotion."
+
+        tests:
+          - not_null
+
+      - name: promotion_status
+        description: "Status of the promotion."
+
+        tests:
+          - accepted_values:
+              values:
+                - ACTIVE
+                - UPCOMING
+                - EXPIRED
+
+  -  name: stg_employees
+     description: "Cleaned employee data from the Bronze layer."
+
+     columns:
+
+       - name: employee_id
+         description: "Unique employee identifier."
+
+         tests:
+           - not_null
+           - unique
+
+       - name: hotel_id
+         description: "Hotel to which the employee belongs."
+
+         tests:
+            - not_null
+            - relationships:
+                to: ref('stg_hotels')
+                field: hotel_id
+
+       - name: first_name
+         description: "Employee's first name."
+
+         tests:
+           - not_null
+
+       - name: last_name
+         description: "Employee's last name."
+
+         tests:
+           - not_null
+
+       
+
+       - name: designation
+         description: "Position or job title of the employee."
+
+         tests:
+           - not_null
+
+       - name: hire_date
+         description: "Date when the employee was hired."
+
+         tests:
+           - not_null
+
+       - name: status
+         description: "Employment status of the employee."
+
+         tests:
+           - accepted_values:
+               values:
+                 - ACTIVE
+                 - ON LEAVE
+                 - RESIGNED
+
+  - name : stg_room_services
+    description: "Cleaned room service data from the Bronze layer."
+
+    columns:
+
+      - name: service_id
+        description: "Unique room service identifier."
+
+        tests:
+          - not_null
+          - unique
+
+      - name: booking_id
+        description: "Booking associated with the room service."
+
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_bookings')
+              field: booking_id
+
+      - name: employee_id
+        description: "Employee who provided the room service."
+
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_employees')
+              field: employee_id
+
+      - name: hotel_id
+        description: "Hotel where the room service was provided."
+
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_hotels')
+              field: hotel_id
+
+   
+
+      - name: service_date
+        description: "Date when the room service was provided."
+
+        tests:
+          - not_null
+
+      
+
+      - name: unit_price
+        description: "Price per unit of the room service."
+
+        tests:
+          - not_null
+
+  - name: stg_exchange_rates
+    description: "Cleaned exchange rate data from the Bronze layer."  
+
+    columns:
+
+      - name: base_currency
+        description: "Base currency code (e.g., USD, EUR, INR)."
+
+        tests:
+          - not_null
+          
+
+      - name: transaction_date
+        description: "Date of the transaction for which the exchange rate is applicable."
+
+        tests:
+          - not_null
+
+      
