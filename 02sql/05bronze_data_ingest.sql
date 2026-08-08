@@ -1,0 +1,44 @@
+USE DATABASE HOTEL_DWH;
+USE SCHEMA BRONZE;
+
+COPY INTO BRONZE.BOOKINGS FROM @stg_hotel_raw/bookings.csv
+FILE_FORMAT = FF_CSV
+ON_ERROR ='CONTINUE';
+
+COPY INTO BRONZE.CUSTOMER FROM @stg_hotel_raw/customers.csv
+FILE_FORMAT = FF_CSV
+ON_ERROR ='CONTINUE';
+
+COPY INTO BRONZE.EMPLOYEES FROM @stg_hotel_raw/employees.csv
+FILE_FORMAT = FF_CSV
+ON_ERROR ='CONTINUE';
+
+COPY INTO BRONZE.EXCHANGE_RATES FROM @stg_hotel_raw/exchange_rates.csv
+FILE_FORMAT = FF_CSV
+ON_ERROR ='CONTINUE';
+
+
+COPY INTO BRONZE.HOTELS FROM @stg_hotel_raw/hotels.csv
+FILE_FORMAT = FF_CSV
+ON_ERROR ='CONTINUE';
+
+COPY INTO BRONZE.payments FROM @stg_hotel_raw/payments.csv
+FILE_FORMAT = FF_CSV
+ON_ERROR ='CONTINUE';
+
+COPY INTO BRONZE.promotions FROM @stg_hotel_raw/promotions.csv
+FILE_FORMAT = FF_CSV
+ON_ERROR ='CONTINUE';
+
+
+COPY INTO BRONZE.reviews FROM @stg_hotel_raw/reviews.csv
+FILE_FORMAT = FF_CSV
+ON_ERROR ='CONTINUE';
+
+COPY INTO BRONZE.rooms FROM @stg_hotel_raw/rooms.csv
+FILE_FORMAT = FF_CSV
+ON_ERROR ='CONTINUE';
+
+COPY INTO BRONZE.room_services FROM @stg_hotel_raw/room_services.csv
+FILE_FORMAT = FF_CSV
+ON_ERROR ='CONTINUE';
