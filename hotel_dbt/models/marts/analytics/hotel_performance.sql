@@ -12,9 +12,9 @@ round(
 round(sum(fb.final_amount_inr),2) as total_revenue_inr,
 dense_rank() over ( order by total_revenue_inr desc) as performance_rank,
 UPPER(case
-    when performance_rank between 1 and 10 then 'top_performer'
-    when performance_rank between 11 and 25 then 'Avergae_performer'
-    else 'low_perfomer'
+    when performance_rank between 1 and 10 then 'top performer'
+    when performance_rank between 11 and 25 then 'Avergae performer'
+    else 'low perfomer'
     end) as Performance_badge,
 dh.hotel_status,
 dh.opened_date,
