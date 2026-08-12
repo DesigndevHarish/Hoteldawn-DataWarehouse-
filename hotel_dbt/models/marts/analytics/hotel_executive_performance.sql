@@ -174,15 +174,15 @@ SELECT
     occupancy_rank,
 
     CASE
-        WHEN occupancy_percentage >= 75
+        WHEN occupancy_percentage >= 5
              AND revenue_rank <= 10
             THEN 'TOP PERFORMER'
 
-        WHEN occupancy_percentage >= 60
+        WHEN occupancy_percentage >= 3
              AND revenue_rank <= 25
             THEN 'STRONG PERFORMER'
 
-        WHEN occupancy_percentage >= 40
+        WHEN occupancy_percentage >= 2
             THEN 'AVERAGE PERFORMER'
 
         ELSE 'NEEDS ATTENTION'
