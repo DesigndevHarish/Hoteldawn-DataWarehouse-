@@ -18,4 +18,4 @@ data/raw/*.csv
 data/processed/*.csv
 
 # cred
-hotel_dbt\profiles.yml
+profiles.yml
