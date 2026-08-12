@@ -1,4 +1,4 @@
-# 🏨 HotelDawn Data Warehouse | Snowflake End-to-End Project
+# 🏨 HotelDawn Data Warehouse | Snowflake-DBT-PowerBI End-to-End Project
 
 An end-to-end Snowflake Data Warehouse project that demonstrates how enterprise hotel booking data is ingested, cleaned, transformed, and analyzed using a modern ELT architecture.
 
@@ -14,6 +14,7 @@ The project demonstrates:
 
 - Enterprise Data Warehouse Architecture
 - Bronze, Silver, and Gold Data Layers
+- dbt models
 - Data Cleaning & Validation
 - Snowflake SQL Development
 - Data Modeling
@@ -36,11 +37,11 @@ The project demonstrates:
                          ▼
                   Bronze Layer
               (Raw Data Ingestion)
-                         │
+                         │ dbt models
                          ▼
                   Silver Layer
           (Cleaning & Transformation)
-                         │
+                         │ dbt models
                          ▼
                    Gold Layer
            (Business Data Model)
@@ -83,7 +84,7 @@ These issues are cleaned during the Silver Layer.
 # Folder Structure
 
 ```
-HotelVista-DataWarehouse/
+Hoteldawn-DataWarehouse/
 
 ├── 00data/
 │   ├── raw/
@@ -125,6 +126,7 @@ HotelVista-DataWarehouse/
 ### Cloud Data Warehouse
 
 - Snowflake
+- dbt
 
 ### Programming Language
 
@@ -159,13 +161,13 @@ Internal Stage
         │
         ▼
 Bronze Layer
-        │
+        │ dbt_models_stage
         ▼
 Silver Layer
-        │
+        │ dbt_models(fact,dim,analytics)
         ▼
 Gold Layer
-        │
+        │ Business analysis sql
         ▼
 Power BI Dashboard
 ```
@@ -183,7 +185,7 @@ git clone <repository-url>
 Navigate to the project folder.
 
 ```bash
-cd HotelVista-DataWarehouse
+cd Hoteldawn-DataWarehouse
 ```
 
 Install dependencies.
@@ -223,8 +225,8 @@ data/raw/
 4. Create Internal Stage
 5. Upload CSV Files
 6. Load Bronze Tables
-7. Transform Data into Silver Layer
-8. Build Gold Layer
+7. Transform Data into Silver Layer using dbt models
+8. Build Gold Layer using dbt models (fact,dim,analytics)
 9. Connect Power BI
 
 SQL scripts are located inside:
@@ -240,11 +242,11 @@ sql/
 The following Power BI dashboards will be developed.
 
 - Executive Dashboard
-- Revenue Analysis
+- Revenue Trend Analysis
 - Hotel Performance
-- Booking Trends
+- Occupancy & room insights
 - Customer Insights
-- Payment Analytics
+
 
 ---
 
@@ -253,9 +255,7 @@ The following Power BI dashboards will be developed.
 - Snowpipe Automation
 - Snowflake Streams & Tasks
 - Dynamic Tables
-- dbt Models
 - CI/CD Pipeline
-- Data Quality Tests
 - Row Level Security
 - Cost Optimization
 
